@@ -139,32 +139,31 @@
 \usepackage{listings}
 \usepackage{hyperref}
 \usepackage{xcolor}
+\lstset{
+backgroundcolor=\color{white},   
+basicstyle=\footnotesize\ttfamily,        
+breakatwhitespace=true,         % sets if automatic breaks should only happen at whitespace
+breaklines=true,                 % sets automatic line breaking
+captionpos=b,                    % sets the caption-position to bottom
+commentstyle=\color{gray},                
+keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code
+columns=flexible,
+keywordstyle=\color{blue},       % keyword style
+language=MATLAB,                 % the language of the code
+morekeywords={*,...},            % if you want to add more keywords to the set
+deletekeywords={gamma,beta},
+numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+numbersep=10pt,                   % how far the line-numbers are from the code
+numberstyle=\tiny\color{gray}, % the style that is used for the line-numbers
+rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+showstringspaces=false,          % underline spaces within strings only
+showtabs=false,                  % show tabs within strings adding particular underscores
+stepnumber=1,                    % the step between two line-numbers. If it's 1, each line will be numbered
+tabsize=2,	                   % sets default tabsize to 2 spaces
+frame=lines,                   %POSSO TOGLIERLO
+} 
 
-\definecolor{codegreen}{rgb}{0,0.6,0}
-\definecolor{codegray}{rgb}{0.5,0.5,0.5}
-\definecolor{codepurple}{rgb}{0.58,0,0.82}
-\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
-
-\lstdefinestyle{mystyle}{
-    backgroundcolor=\color{backcolour},   
-    commentstyle=\color{codegreen},
-    keywordstyle=\color{magenta},
-    numberstyle=\tiny\color{codegray},
-    stringstyle=\color{codepurple},
-    basicstyle=\ttfamily\footnotesize,
-    breakatwhitespace=false,         
-    breaklines=true,                 
-    captionpos=b,                    
-    keepspaces=true,                 
-    numbers=left,                    
-    numbersep=4pt,                  
-    showspaces=false,                
-    showstringspaces=false,
-    showtabs=false,                  
-    tabsize=2
-}
-
-\lstset{style=mystyle}
 
 
 \title{Computational Linear Algegbra For Large Scale Problems}
@@ -188,15 +187,9 @@ As it is clearly visible through visual inspection, both datasets contain \(3\) 
 \\
 
 \section{K-Nearest Neighborhood Graph}
-First, we need to define a similarity function that measures "how much our points are similar to each other". Let \(X_i\) and \(X_j\) be two points in our data, then we will use a similarity measure defined as:
-\begin{equation}
-  s_{i,j} = \exp \left(- \frac{\| X_i- X_j \|^2}{2\sigma^2}\right)
-\end{equation}
-Then, a \textit{\(K\)-Nearest Neighborhood} similarity graph is a Graph \(G= (V,E)\) where each vertex \(v_1, \dots v_n\) represents a point and two vertices \(v_i\) and \(v_j\) are connected by an undirected edge \(e_{i,j}\) if the similarity between \(v_i\) and \(v_j\) is among the \(K\)-th highest similarities between \(v_i\) and other vertices in \(V\). For such graph we can define the relative adjacency matrix as \(W_{i,j} = s_{i,j}\) where each entry \(W_{i,j}\) is nonzero only if there exists an edge between \(v_i\) and \(v_j\). \(W\) has zero-values on diagonal by definition.
-\\
-\\
-The following MATLAB code was use to generate the K-NN similarity graph of our data:
-
+\input{tasks/task1.tex}
+\section{Degree and Laplacian Matrices}
+\input{tasks/task2.tex}
 
 %\bibliographystyle{plain} % We choose the "plain" reference style
 %\bibliography{refs} % Entries are in the refs.bib file

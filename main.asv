@@ -2,36 +2,64 @@ clear
 close all
 clc
 
-% ---- LOADING DATA -----
+print_fig = true; %Set TRUE for Printing figures to file
+%% ---- LOADING DATA -----
 load("data\Circle.mat", "X");
 circle_X = X;
 load("data\Spiral.mat", "X");
 spiral_X = X;
 clear X;
 
+fig(1) = figure;
+scatter(circle_X(:,1), circle_X(:,2), 10, 'filled');
+set(fig(1),'PaperSize',[14 11]);
+if print_fig
+    print(fig(1), 'Latex\pictures\circle_scatterplot.pdf', '-dpdf')
+end
 
-fig = scatter(circle_X(:,1), circle_X(:,2), 10, 'filled');
-saveas(fig, 'Latex\picture')
+fig(1) = figure;
+scatter(spiral_X(:,1), spiral_X(:,2), 10, 'filled');
+set(fig(1),'PaperSize',[14 11]);
+if print_fig
+    print(fig(1), 'Latex\pictures\spiral_scatterplot.pdf', '-dpdf')
+end
 
 
 
-
-% --- TASK 1 ---
+%% --- TASK 1 ---
 % --- BUILDING K-NN GRAPH ---
-K = 10;
-[G_circle , W_circle]= knn_graph(circle_X, K, 1);
-[G_spiral, W_spiral] = knn_graph(spiral_X, K, 1);
+K=[10,20,40];   %Different value of K to test
+G_circle={};    %Array containing Graph objects for circle dataset
+W_circle={};    %Array containing adjacency matrices for circle dataset
+G_spiral={};    
+W_spiral={};
 
-figure(2)
-plot(G_circle, 'XData', circle_X(:,1), 'YData', circle_X(:,2))
-% figure(2)
-%plot(G_spiral, 'XData', spiral_X(:,1), 'YData', spiral_X(:,2))
+for i=1:length(K)
+    [G_circle{i} , W_circle{i}]= knn_graph(circle_X, K(i), 1);
+    [G_spiral(i), W_spiral{i}] = knn_graph(spiral_X, K(i), 1);
 
-%--- TASK 2 ---
+    fig(2) = figure;
+    plot(G_circle(i), 'XData', circle_X(:,1), 'YData', circle_X(:,2))
+    set(fig(2),'PaperSize',[14 11]);
+    if print_fig
+    print(fig(2), ['Latex\pictures\circle_KNN_K' int2str(K(i)) '.pdf'], '-dpdf')
+    end
+
+    fig(2) = figure;
+    plot(G_spiral(i), 'XData', spiral_X(:,1), 'YData', spiral_X(:,2))
+    set(fig(2),'PaperSize',[14 11]);
+    if print_fig
+    print(fig(2), ['Latex\pictures\spiral_KNN_K' int2str(K(i)) '.pdf'], '-dpdf')
+    end
+
+end
+
+
+%% --- TASK 2 ---
 [L_circle, D_circle] = graph_laplacian(W_circle);
 [L_spiral, D_spiral] = graph_laplacian(W_spiral);
 
-%--- TASK 3-4-5 ---
+%% --- TASK 3-4-5 ---
 M=3;
 [U_circle, eigs_circle] = eigs(L_circle, 6, 'smallestabs');
 %circle has clearly 2 connected components since the multiplicity of
@@ -45,11 +73,11 @@ M=3;
 U_circle = U_circle(:,1:M);
 U_spiral = U_spiral(:,1:M);
 
-%--- TASK 6-7---
+%% --- TASK 6-7---
 idx_circle = kmeans(U_circle, M);
 idx_spiral = kmeans(U_spiral, M);
 
-%--- Task 8---
+%% --- Task 8---
 figure(3)
 scatter(circle_X(:,1), circle_X(:,2), 10, idx_circle, 'filled')
 
