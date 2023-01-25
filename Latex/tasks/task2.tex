@@ -4,7 +4,7 @@ The \textit{Degree matrix} \(D\) is a diagonal matrix that has the degree of eac
 \end{equation}
 Since the Laplacian matrix is defined as \(L= D - W\), we use the following code to compute both \(D\) and \(L\):
 \lstinputlisting{../graph_laplacian.m}
-After computing Both matrices for each dataset and for each value of \(K\) we are testing for the K-NN graph we can inspect each Laplacian matrix using the \texttt{spy} command in MATLAB:
+After computing both matrices for each dataset and for each value of \(K\) we are testing for the K-NN graph we can inspect each Laplacian matrix using the \texttt{spy} command in MATLAB:
 \begin{figure}[H]
     \centering
     \subfloat[1][\(K= 10\)]{\includegraphics[scale = 0.37]{pictures/circle_LaplacianSpy_K10.pdf}}
@@ -13,7 +13,7 @@ After computing Both matrices for each dataset and for each value of \(K\) we ar
     \caption{\texttt{spy} plots of the Laplacian matrix for \texttt{Circle} data with different values of \(K\)}
     \label{LaplacianSpy_circle}
   \end{figure}
-  In Figure \ref{LaplacianSpy_circle} we can see that, for each Laplacian matrix inspected, there are 3 sections. Each section defines a "\textit{shape cluster}" in the \texttt{Circle} dataset: the first one is clearly vidible in the bottom right corner of each matrix and it is relative to the point cloud. The other two sections are along the diagonal in the top left of the matrix, they are somewhat visible for \(K= 10\) and \(K= 20\) and they are relative to the two "circles" visible in the scatterplot in Figure \ref{scatter_intro}. The Laplacian matrix inspected for \(K= 40\) clearly shows a sort of \textbf{data pollution} from one shape cluster to another, this might suggest that the value \(K= 40\) may be too high for deploying the clustering.
+  In Figure \ref{LaplacianSpy_circle} we can see that, for each Laplacian matrix inspected, there are 3 sections. Each section defines a "\textit{shape cluster}" in the \texttt{Circle} dataset: the first one is clearly visible in the bottom right corner of each matrix and it is relative to the point cloud. The other two sections are along the diagonal in the top left of the matrix, they are somewhat visible for \(K= 10\) and \(K= 20\) and they are relative to the two "circles" visible in the scatterplot in Figure \ref{scatter_intro}. The Laplacian matrix inspected for \(K= 40\) clearly shows a sort of \textbf{data pollution} from one shape cluster to another, this might suggest that the value \(K= 40\) may be too high for deploying the clustering.
   \begin{figure}[H]
     \centering
     \subfloat[1][\(K= 10\)]{\includegraphics[scale = 0.37]{pictures/spiral_LaplacianSpy_K10.pdf}}
