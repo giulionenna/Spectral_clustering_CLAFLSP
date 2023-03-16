@@ -93,6 +93,12 @@ for i = 1:length(K)
     eigs_circle_tot(:,i) = diag(eigs_circle{i}); 
     eigs_spiral_tot(:,i) = diag(eigs_spiral{i});
 end
+M=3; %using the first 3 eigenvectors
+for i = 1:length(K)
+    %trim the matrix U to the first M columns
+    U_circle{i} = U_circle{i}(:, 1:M);
+    U_spiral{i} = U_spiral{i}(:, 1:M);
+end
 
 
 
@@ -102,16 +108,7 @@ M=3;
 idx_circle={}; %cluster labels for circle dataset
 idx_spiral={}; %same for spiral
 
-for i = 1:length(K)
-    U_circle{i} = U_circle{i}(:, 1:M);
-    for j=1:length(circle_X)
-        U_circle{i}(j,:) = U_circle{i}(j,:)/norm(U_circle{i}(j,:));
-    end
-    U_spiral{i} = U_spiral{i}(:, 1:M);
-    for j=1:length(spiral_X)
-        U_spiral{i}(j,:) = U_spiral{i}(j,:)/norm(U_spiral{i}(j,:));
-    end
-end
+
 for i = 1:length(K)
     idx_circle{i} = kmeans(U_circle{i}, M);
     idx_spiral{i} = kmeans(U_spiral{i}, M);
@@ -121,7 +118,6 @@ for i=1:length(K)
 
     fig(4) = figure;
     scatter(circle_X(:,1), circle_X(:,2), 10, idx_circle{i}, 'filled');
-    %plot(G_circle{i}, 'XData', circle_X(:,1), 'YData', circle_X(:,2), 'NodeCData',idx_circle{i})
     set(fig(4),'PaperSize',[14 11]);
     if print_fig == true
     print(fig(4), ['Latex\pictures\circle_SpectralClustering_K' int2str(K(i)) '.pdf'], '-dpdf')
@@ -129,7 +125,6 @@ for i=1:length(K)
 
     fig(4) = figure;
     scatter(spiral_X(:,1), spiral_X(:,2), 10, idx_spiral{i}, 'filled');
-    %plot(G_spiral{i}, 'XData', spiral_X(:,1), 'YData', spiral_X(:,2), 'NodeCData',idx_spiral{i})
     set(fig(4),'PaperSize',[14 11]);
     if print_fig == true
         print(fig(4), ['Latex\pictures\spiral_SpectralClustering_K' int2str(K(i)) '.pdf'], '-dpdf')
@@ -137,5 +132,12 @@ for i=1:length(K)
 
 end
 
+%% --- TASK 9 ---
 
+%% test code
+
+for i=1:length(spiral_X)
+    U(i,:) = U_spiral{1}(i,:)/norm(U_spiral{1}(i,:));
+end
+scatter3(U(:,1), U(:,2),U(:,3))
 

@@ -16,3 +16,9 @@ for i = 1:length(K)
     eigs_circle_tot(:,i) = diag(eigs_circle{i}); 
     eigs_spiral_tot(:,i) = diag(eigs_spiral{i});
 end
+M=3; %using the first 3 eigenvectors
+for i = 1:length(K)
+    %trim the matrix U to the first M columns
+    U_circle{i} = U_circle{i}(:, 1:M);
+    U_spiral{i} = U_spiral{i}(:, 1:M);
+end

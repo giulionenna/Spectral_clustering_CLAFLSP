@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.4)  16 MAR 2023 11:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.4)  16 MAR 2023 19:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -741,7 +741,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 174.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 174.
-<pictures/circle_scatterplot.pdf, id=17, 398.48875pt x 313.17pt>
+<pictures/circle_scatterplot.pdf, id=21, 398.48875pt x 313.17pt>
 File: pictures/circle_scatterplot.pdf Graphic file (type pdf)
 <use pictures/circle_scatterplot.pdf>
 Package pdftex.def Info: pictures/circle_scatterplot.pdf  used on input line 177.
@@ -750,7 +750,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 17
  (c:/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<pictures/spiral_scatterplot.pdf, id=18, 398.48875pt x 313.17pt>
+<pictures/spiral_scatterplot.pdf, id=22, 398.48875pt x 313.17pt>
 File: pictures/spiral_scatterplot.pdf Graphic file (type pdf)
 <use pictures/spiral_scatterplot.pdf>
 Package pdftex.def Info: pictures/spiral_scatterplot.pdf  used on input line 180.
@@ -774,17 +774,17 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on in
 (../knn_graph.m [1
 
 {c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./pictures/circle_scatterplot.pdf> <./pictures/spiral_scatterplot.pdf>])
-<pictures/circle_KNN_K10.pdf, id=48, 398.48875pt x 313.17pt>
+<pictures/circle_KNN_K10.pdf, id=52, 398.48875pt x 313.17pt>
 File: pictures/circle_KNN_K10.pdf Graphic file (type pdf)
 <use pictures/circle_KNN_K10.pdf>
 Package pdftex.def Info: pictures/circle_KNN_K10.pdf  used on input line 13.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/circle_KNN_K20.pdf, id=49, 398.48875pt x 313.17pt>
+<pictures/circle_KNN_K20.pdf, id=53, 398.48875pt x 313.17pt>
 File: pictures/circle_KNN_K20.pdf Graphic file (type pdf)
 <use pictures/circle_KNN_K20.pdf>
 Package pdftex.def Info: pictures/circle_KNN_K20.pdf  used on input line 14.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/circle_KNN_K40.pdf, id=50, 398.48875pt x 313.17pt>
+<pictures/circle_KNN_K40.pdf, id=54, 398.48875pt x 313.17pt>
 File: pictures/circle_KNN_K40.pdf Graphic file (type pdf)
 <use pictures/circle_KNN_K40.pdf>
 Package pdftex.def Info: pictures/circle_KNN_K40.pdf  used on input line 15.
@@ -794,17 +794,17 @@ Overfull \hbox (15.52423pt too wide) in paragraph at lines 13--16
  [][][][][][] 
  []
 
-<pictures/spiral_KNN_K10.pdf, id=51, 398.48875pt x 313.17pt>
+<pictures/spiral_KNN_K10.pdf, id=55, 398.48875pt x 313.17pt>
 File: pictures/spiral_KNN_K10.pdf Graphic file (type pdf)
 <use pictures/spiral_KNN_K10.pdf>
 Package pdftex.def Info: pictures/spiral_KNN_K10.pdf  used on input line 21.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/spiral_KNN_K20.pdf, id=52, 398.48875pt x 313.17pt>
+<pictures/spiral_KNN_K20.pdf, id=56, 398.48875pt x 313.17pt>
 File: pictures/spiral_KNN_K20.pdf Graphic file (type pdf)
 <use pictures/spiral_KNN_K20.pdf>
 Package pdftex.def Info: pictures/spiral_KNN_K20.pdf  used on input line 22.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/spiral_KNN_K40.pdf, id=53, 398.48875pt x 313.17pt>
+<pictures/spiral_KNN_K40.pdf, id=57, 398.48875pt x 313.17pt>
 File: pictures/spiral_KNN_K40.pdf Graphic file (type pdf)
 <use pictures/spiral_KNN_K40.pdf>
 Package pdftex.def Info: pictures/spiral_KNN_K40.pdf  used on input line 23.
@@ -819,17 +819,17 @@ LaTeX Font Info:    Trying to load font information for U+bbm on input line 3.
  (c:/texlive/2021/texmf-dist/tex/latex/bbm-macros/ubbm.fd
 File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
 ) (../graph_laplacian.m)
-<pictures/circle_LaplacianSpy_K10.pdf, id=49288, 398.48875pt x 313.17pt>
+<pictures/circle_LaplacianSpy_K10.pdf, id=49292, 398.48875pt x 313.17pt>
 File: pictures/circle_LaplacianSpy_K10.pdf Graphic file (type pdf)
 <use pictures/circle_LaplacianSpy_K10.pdf>
 Package pdftex.def Info: pictures/circle_LaplacianSpy_K10.pdf  used on input line 10.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/circle_LaplacianSpy_K20.pdf, id=49289, 398.48875pt x 313.17pt>
+<pictures/circle_LaplacianSpy_K20.pdf, id=49293, 398.48875pt x 313.17pt>
 File: pictures/circle_LaplacianSpy_K20.pdf Graphic file (type pdf)
 <use pictures/circle_LaplacianSpy_K20.pdf>
 Package pdftex.def Info: pictures/circle_LaplacianSpy_K20.pdf  used on input line 11.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/circle_LaplacianSpy_K40.pdf, id=49290, 398.48875pt x 313.17pt>
+<pictures/circle_LaplacianSpy_K40.pdf, id=49294, 398.48875pt x 313.17pt>
 File: pictures/circle_LaplacianSpy_K40.pdf Graphic file (type pdf)
 <use pictures/circle_LaplacianSpy_K40.pdf>
 Package pdftex.def Info: pictures/circle_LaplacianSpy_K40.pdf  used on input line 12.
@@ -839,12 +839,12 @@ Overfull \hbox (15.52423pt too wide) in paragraph at lines 10--13
  [][][][][][] 
  []
 
-<pictures/spiral_LaplacianSpy_K10.pdf, id=49293, 398.48875pt x 313.17pt>
+<pictures/spiral_LaplacianSpy_K10.pdf, id=49297, 398.48875pt x 313.17pt>
 File: pictures/spiral_LaplacianSpy_K10.pdf Graphic file (type pdf)
 <use pictures/spiral_LaplacianSpy_K10.pdf>
 Package pdftex.def Info: pictures/spiral_LaplacianSpy_K10.pdf  used on input line 19.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/spiral_LaplacianSpy_K20.pdf, id=49294, 398.48875pt x 313.17pt>
+<pictures/spiral_LaplacianSpy_K20.pdf, id=49298, 398.48875pt x 313.17pt>
 File: pictures/spiral_LaplacianSpy_K20.pdf Graphic file (type pdf)
 <use pictures/spiral_LaplacianSpy_K20.pdf>
 Package pdftex.def Info: pictures/spiral_LaplacianSpy_K20.pdf  used on input line 20.
@@ -882,30 +882,85 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--66
 
  []
 
-[4] (../task3_4_5.m))
+[4] (../task3_4_5.m)) (./tasks/task6_7_8.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--8
+
+ []
+
+(../task6_7_8.m)
+<pictures/circle_SpectralClustering_K10.pdf, id=49340, 398.48875pt x 313.17pt>
+File: pictures/circle_SpectralClustering_K10.pdf Graphic file (type pdf)
+<use pictures/circle_SpectralClustering_K10.pdf>
+Package pdftex.def Info: pictures/circle_SpectralClustering_K10.pdf  used on input line 12.
+(pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
+<pictures/circle_SpectralClustering_K20.pdf, id=49341, 398.48875pt x 313.17pt>
+File: pictures/circle_SpectralClustering_K20.pdf Graphic file (type pdf)
+<use pictures/circle_SpectralClustering_K20.pdf>
+Package pdftex.def Info: pictures/circle_SpectralClustering_K20.pdf  used on input line 13.
+(pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
+<pictures/circle_SpectralClustering_K40.pdf, id=49342, 398.48875pt x 313.17pt>
+File: pictures/circle_SpectralClustering_K40.pdf Graphic file (type pdf)
+<use pictures/circle_SpectralClustering_K40.pdf>
+Package pdftex.def Info: pictures/circle_SpectralClustering_K40.pdf  used on input line 14.
+(pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
+
+Overfull \hbox (15.52423pt too wide) in paragraph at lines 12--15
+ [][][][][][] 
+ []
+
+<pictures/spiral_SpectralClustering_K10.pdf, id=49343, 398.48875pt x 313.17pt>
+File: pictures/spiral_SpectralClustering_K10.pdf Graphic file (type pdf)
+<use pictures/spiral_SpectralClustering_K10.pdf>
+Package pdftex.def Info: pictures/spiral_SpectralClustering_K10.pdf  used on input line 20.
+(pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
+<pictures/spiral_SpectralClustering_K20.pdf, id=49344, 398.48875pt x 313.17pt>
+File: pictures/spiral_SpectralClustering_K20.pdf Graphic file (type pdf)
+<use pictures/spiral_SpectralClustering_K20.pdf>
+Package pdftex.def Info: pictures/spiral_SpectralClustering_K20.pdf  used on input line 21.
+(pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
+<pictures/spiral_SpectralClustering_K40.pdf, id=49345, 398.48875pt x 313.17pt>
+File: pictures/spiral_SpectralClustering_K40.pdf Graphic file (type pdf)
+<use pictures/spiral_SpectralClustering_K40.pdf>
+Package pdftex.def Info: pictures/spiral_SpectralClustering_K40.pdf  used on input line 22.
+(pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
+
+Overfull \hbox (15.52423pt too wide) in paragraph at lines 20--23
+ [][][][][][] 
+ []
+
+[5])
+Underfull \hbox (badness 10000) in paragraph at lines 26--200
+
+ []
+
 
 Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ Package `movie15' is obsolete and @@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-[5] (./main.aux)
+[6 <./pictures/circle_SpectralClustering_K10.pdf> <./pictures/circle_SpectralClustering_K20.pdf> <./pictures/circle_SpectralClustering_K40.pdf> <./pictures/spiral_SpectralClustering_K10.pdf> <./pictures/spiral_SpectralClustering_K20.pdf> <./pictures/spiral_SpectralClustering_K40.pdf>] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3B06994AE00EFD588DC455210D6DFE72;592.
+(rerunfilecheck)             Checksum: B28926D9F9AC8F3F1D396A2073BF7A77;790.
  ) 
 Here is how much of TeX's memory you used:
- 17335 strings out of 478517
- 257039 string characters out of 5853902
- 937034 words of memory out of 5000000
- 34804 multiletter control sequences out of 15000+600000
- 471297 words of font info for 121 fonts, out of 8000000 for 9000
+ 17422 strings out of 478517
+ 259729 string characters out of 5853902
+ 961034 words of memory out of 5000000
+ 34853 multiletter control sequences out of 15000+600000
+ 471697 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,11n,80p,963b,2413s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc} <c:/Users/giuli/.texlive2021/texmf-var/fonts/pk/ljfour/public/bbm/bbm10.600pk>{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (5 pages, 2666998 bytes).
+Output written on main.pdf (6 pages, 2735642 bytes).
 PDF statistics:
- 49471 PDF objects out of 55141 (max. 8388607)
- 48920 compressed objects within 490 object streams
- 75 named destinations out of 1000 (max. 500000)
- 90 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 49527 PDF objects out of 55141 (max. 8388607)
+ 48969 compressed objects within 490 object streams
+ 102 named destinations out of 1000 (max. 500000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
