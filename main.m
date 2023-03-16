@@ -75,30 +75,26 @@ for i=1:length(K)
         print(fig(3), ['Latex\pictures\spiral_LaplacianSpy_K' int2str(K(i)) '.pdf'], '-dpdf')
     end
 end
-%% --- TASK 3 ---
+%% --- TASK 3-4-5 ---
 n_eigs=6;
 U_circle={};
 U_spiral={};
 eigs_circle={};
 eigs_spiral={};
 
-for i=1:length(K)
-    [U_circle{i}, eigs_circle{i}] = eigs(L_circle{i}, n_eigs, 'smallestabs');
-    [U_spiral{i}, eigs_spiral{i}] = eigs(L_spiral{i}, n_eigs, 'smallestabs');
+for i=1:length(K) %for each value of K tested
+    [U_circle{i}, eigs_circle{i}] = eigs(L_circle{i}, n_eigs, 'smallestabs'); %compute the n_eigs smallest eigenvalues for circle
+    [U_spiral{i}, eigs_spiral{i}] = eigs(L_spiral{i}, n_eigs, 'smallestabs'); %same for spiral
 end
 
 for i = 1:length(K)
-    eigs_circle_tot(:,i) = diag(eigs_circle{i});
+    %simple code to generate a matrix where in each column the eigenvalues
+    %are listed for each value of K tested
+    eigs_circle_tot(:,i) = diag(eigs_circle{i}); 
     eigs_spiral_tot(:,i) = diag(eigs_spiral{i});
 end
 
 
-
-%Same for spiral but here we only have one connected component and 3
-%clusters.
-
-%U_circle = U_circle(:,1:M);
-%U_spiral = U_spiral(:,1:M);
 
 %% --- TASK 6-7---
 idx_circle = kmeans(U_circle, M);

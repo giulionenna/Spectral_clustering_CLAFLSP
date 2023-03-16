@@ -1,0 +1,66 @@
+In order to compute the number of connected components in each graph we use the following result:
+\begin{thm}
+    Let \(G = (\mathcal{V}, W)\) be a finite graph and let \(L\) be its laplacian matrix. Then \(L\) has \(\lambda = 0\) as an eigenvalue and its algebraic multiplicity correspond to the number of connected components in \(G\).
+\end{thm}
+%\\
+\noindent Using the Matlab function \texttt{eigs} we can compute the smallest \(C = 6\) eigenvalues of both graphs laplacian matrices \(L\) and for each value of \(K\) obtaining the following results:
+
+\begin{center}
+    \begin{table}[h!]
+        \centering
+        \begin{tabular}{|l|c|r|}
+            \hline
+            $K=10$ & $K=20$ & $K=40$ \\
+            \hline
+            8.5482e-17 & 2.4854e-16 & 8.1617e-16\\ 
+            \hline
+            3.7050e-16 & 0.0111 & 0.0482\\
+            \hline
+            0.0048 & 0.0652 & 0.7028\\
+            \hline
+            0.0286 & 0.1620 & 0.7797\\
+            \hline
+            0.0425 & 0.1724 & 0.9065\\
+            \hline
+            0.0429 & 0.3220 & 1.376\\
+            \hline
+        \end{tabular}
+        \caption{Smallest 6 eigenvalues of the Laplacian matrix for the \texttt{circle} dataset}    
+        \label{table_circle_spiral}
+    \end{table}
+    \begin{table}[h!]
+        \centering
+        \begin{tabular}{|l|c|r|}
+            \hline
+            $K=10$ & $K=20$ & $K=40$ \\
+            \hline
+            1.0496e-16 & 1.7853e-16 & 4.0554e-16\\
+            \hline
+            1.9667e-04 & 0.0018 & 0.0023\\
+            \hline
+            2.7219e-04 & 0.0020 & 0.0025\\
+            \hline
+            0.0041 & 0.0048 & 0.0049\\
+            \hline
+            0.0044 & 0.0054 & 0.0062\\
+            \hline
+            0.0046 & 0.0056 & 0.0067\\
+            \hline
+        \end{tabular}
+        \caption{Smallest 6 eigenvalues of the Laplacian matrix for the \texttt{spiral} dataset} 
+        \label{table_eigs_spiral}   
+    \end{table}
+\end{center}
+From a visual inspection of both dataset we would expect to find 3 connected components and consequently an eigenvalue \(\lambda= 0\) of both laplacian matrices with algebraic multiplicity \(M= 3\).
+\\
+\\
+Considering the case \(K= 10\) for both datasets we can see that the first 3 eigenvalues are "almost" equal to 0, and we can see a jump in order of magnitude from the fourth eigenvalue.
+On the other hand the cases \(K=20\) and \(K=40\) show that only the first eigenvalue could be considered equal to 0 (which is always true) but the second and third eigenvalues are somewhat smaller than the others.
+\\
+This behaviour is perfectly in line with the "data pollution" concept seen graphically in \ref{sec2}. We can in fact interpret an "almost null" eigenvalue as an eigenvalue corresponding to an "almost connected component". The less the component is "isolated", the greater its eigenvalue will be. In the case \(K=10\) we clearly have 3 connected components that are isolated fairly well, hence the value of the first 3 eigenvalues are almost 0 for both graphs. In the cases \(K=20\) and \(K=40\), the 3 connected components that we expected are not well isolated and present a lot of edges from one to another, hence the first 3 eigenvalues are not small enough to be considered null.\\
+\\
+In any case we consider \(M=3\) the number of connected components and construct the matrix \(U\in \mathbb{R}^{N\times 3}\) using the \(M=3\) eigenvectors \(u_1, u_2, u_3\) corresponding to the first 3 eigenvalues as columns.
+\\
+\\
+The following Matlab code was used for the computation in this section:
+\lstinputlisting{../task3_4_5.m}

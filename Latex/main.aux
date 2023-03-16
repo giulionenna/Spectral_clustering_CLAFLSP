@@ -2,10 +2,13 @@
 \providecommand\hyper@newdestlabel[2]{}
 \providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
 \HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
 \global\let\oldnewlabel\newlabel
 \gdef\newlabel#1#2{\newlabelxx{#1}#2}
 \gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
 \AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
 \let\newlabel\oldnewlabel
 \fi}
 \fi}
@@ -31,6 +34,7 @@
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces 2}}{2}{subfigure.3.2}\protected@file@percent }
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces 3}}{2}{subfigure.3.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {2}Degree and Laplacian Matrices}{3}{section.2}\protected@file@percent }
+\newlabel{sec2}{{2}{3}{Degree and Laplacian Matrices}{section.2}{}}
 \@writefile{lol}{\contentsline {lstlisting}{../graph\textunderscore laplacian.m}{3}{lstlisting.-2}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \texttt  {spy} plots of the Laplacian matrix for \texttt  {Circle} data with different values of \(K\)\relax }}{3}{figure.caption.4}\protected@file@percent }
 \newlabel{LaplacianSpy_circle}{{4}{3}{\texttt {spy} plots of the Laplacian matrix for \texttt {Circle} data with different values of \(K\)\relax }{figure.caption.4}{}}
@@ -43,4 +47,9 @@
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces 2}}{3}{subfigure.5.2}\protected@file@percent }
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces 3}}{3}{subfigure.5.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3}Connected components computation}{4}{section.3}\protected@file@percent }
-\gdef \@abspage@last{4}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Smallest 6 eigenvalues of the Laplacian matrix for the \texttt  {circle} dataset\relax }}{4}{table.caption.6}\protected@file@percent }
+\newlabel{table_circle_spiral}{{1}{4}{Smallest 6 eigenvalues of the Laplacian matrix for the \texttt {circle} dataset\relax }{table.caption.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Smallest 6 eigenvalues of the Laplacian matrix for the \texttt  {spiral} dataset\relax }}{4}{table.caption.7}\protected@file@percent }
+\newlabel{table_eigs_spiral}{{2}{4}{Smallest 6 eigenvalues of the Laplacian matrix for the \texttt {spiral} dataset\relax }{table.caption.7}{}}
+\@writefile{lol}{\contentsline {lstlisting}{../task3\textunderscore 4\textunderscore 5.m}{5}{lstlisting.-3}\protected@file@percent }
+\gdef \@abspage@last{5}
