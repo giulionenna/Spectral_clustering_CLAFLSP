@@ -132,7 +132,46 @@ for i=1:length(K)
 
 end
 
-%% --- TASK 9 ---
+%% --- TASK 9 kmeans ---
+
+%-- Kmeans no spectral---
+idx_circle_kmeans = kmeans(circle_X, M);
+idx_spiral_kmeans = kmeans(spiral_X(:,1:2), M);
+
+fig(5) = figure;
+scatter(circle_X(:,1), circle_X(:,2), 10, idx_circle_kmeans, 'filled');
+set(fig(5),'PaperSize',[14 11]);
+if print_fig == true
+print(fig(5), ['Latex\pictures\circle_Kmeans_nospectral.pdf'], '-dpdf')
+end
+fig(5) = figure;
+scatter(spiral_X(:,1), spiral_X(:,2), 10, idx_spiral_kmeans, 'filled');
+set(fig(5),'PaperSize',[14 11]);
+if print_fig == true
+print(fig(5), ['Latex\pictures\spiral_Kmeans_nospectral.pdf'], '-dpdf')
+end
+
+%% --- Task 9 dbscan ---
+
+idx_circle_dbscan = dbscan(circle_X, 0.6, 5);
+idx_spiral_dbscan = dbscan(spiral_X(:,1:2), 0.3,5, 'Distance', 'mahalanobis');
+
+fig(6) = figure;
+scatter(circle_X(:,1), circle_X(:,2), 10, idx_circle_dbscan, 'filled');
+set(fig(6),'PaperSize',[14 11]);
+if print_fig == true
+print(fig(6), ['Latex\pictures\circle_dbscan_nospectral.pdf'], '-dpdf')
+end
+fig(6) = figure;
+scatter(spiral_X(:,1), spiral_X(:,2), 10, idx_spiral_dbscan, 'filled');
+set(fig(6),'PaperSize',[14 11]);
+if print_fig == true
+print(fig(6), ['Latex\pictures\spiral_dbscan_nospectral.pdf'], '-dpdf')
+end
+
+
+
+
 
 %% test code
 
