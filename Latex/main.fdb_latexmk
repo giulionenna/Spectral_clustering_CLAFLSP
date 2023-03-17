@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1679065392 "c:/Users/giuli/Documents/GitHub/Spectral_clustering_CLAFLSP/Latex/main.tex" "main.pdf" "main" 1679065403 0
+["pdflatex"] 1679068168 "c:/Users/giuli/Documents/GitHub/Spectral_clustering_CLAFLSP/Latex/main.tex" "main.pdf" "main" 1679068179 0
   "../graph_laplacian.m" 1674652353 86 d439168bbf199f7af5ab63953c39968a ""
   "../knn_graph.m" 1674652353 636 82521acdcd792f1729da8f5cc4feac33 ""
   "../task3_4_5.m" 1679061787 815 2aca3d6556a0e50e564ea8fc2c3355b8 ""
@@ -230,8 +230,8 @@
   "C:/Users/giuli/AppData/Local/Programs/MiKTeX/tex/latex/wasysym/wasysym.sty" 1579693002 11252 7fbfbe7bbcbe1f73acbe32ae2f10c666 ""
   "C:/Users/giuli/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656233290 56148 51a9a8571c07b9921892ae11063ae853 ""
   "c:/Users/giuli/Documents/GitHub/Spectral_clustering_CLAFLSP/Latex/main.tex" 1679063447 7014 3ae416d6dcd76926acbfa76cf2725195 ""
-  "main.aux" 1679065403 8712 5cd812cd447dfe5988cd9f8c2e2535b0 "pdflatex"
-  "main.out" 1679065403 1370 e63476367ea2d89a1a5c78952b122c53 "pdflatex"
+  "main.aux" 1679068179 8689 1f68a27a64ec0fa8ecd3e313e08a33d9 "pdflatex"
+  "main.out" 1679068179 1370 e63476367ea2d89a1a5c78952b122c53 "pdflatex"
   "main.tex" 1679063447 7014 3ae416d6dcd76926acbfa76cf2725195 ""
   "pictures/circle_KNN_K10.pdf" 1679061787 574788 f712a0128603f579ace1567f033ffb0a ""
   "pictures/circle_KNN_K20.pdf" 1679061787 1087801 e60050325d116d0e41ebd6a4b87cbd5b ""
@@ -260,7 +260,7 @@
   "tasks/task2.tex" 1674655619 3308 d229b3f22560b9d22b1437c53be82fe6 ""
   "tasks/task3_4_5.tex" 1679061787 3665 0c8a5c564ed9ccc57c370808d1a7d60f ""
   "tasks/task6_7_8.tex" 1679061787 2421 fb2c6263da5548c4e3c99a0d36b82536 ""
-  "tasks/task9.tex" 1679065378 2013 adbd03f2c2408a0f44feef7ff39e2b02 ""
+  "tasks/task9.tex" 1679068167 2673 2d5bcf1c96156d262d8c76b55849e5e8 ""
   (generated)
   "main.aux"
   "main.log"

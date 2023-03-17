@@ -13,7 +13,7 @@ Performing the plain \textit{K-means} algorithm on our data yields poor results 
     \label{kmeans_nospectral}
   \end{figure}
 
-  As it is clearly visible in figure \ref*{kmeans_nospectral}, the \textit{K-means} algorithm performed on spatial data is only able to recognize the cloud of points in the \texttt{circle} data since is euclidean-ball shaped. It clearly fails to recognize any other shape and this results in a very poor clustering with regard to shaped data.
+  As it is clearly visible in figure \ref{kmeans_nospectral}, the \textit{K-means} algorithm performed on spatial data is only able to recognize the cloud of points in the \texttt{circle} data since is euclidean-ball shaped. It clearly fails to recognize any other shape and this results in a very poor clustering with regard to shaped data.
 
   \subsection{DBSCAN algorithm}
   The DBSCAN algorithm is an "explorative" approach to clustering. Without going into details, at its core the DBSCAN algorithm populate each cluster by searching the neighborhood of each point in the cluster hence performs much better at recognizing shapes than the plain \textit{K-means} algorithm.
@@ -28,5 +28,7 @@ Performing the plain \textit{K-means} algorithm on our data yields poor results 
     \label{dbscan_nospectral}
   \end{figure}
 
-  The results of the clustering are shown in Figure \ref{dbscan_nospectral}. Those are obtained after some minor 
-  %TODO
+  \noindent The results of the clustering are shown in Figure \ref{dbscan_nospectral}. Those are obtained using the \texttt{dbscan} function in MATLAB performing some minor tuning of the parameters. In particular the clustering for the \texttt{circle} data was obtained using the default metric of the algorithm which is the euclidean distance while for the \texttt{spiral} data the Mahalanobis distance was used.
+  \\
+  \\
+As it is visible in Figure \ref{dbscan_nospectral} the DBSCAN algorithm is perfectly capable of recognizing shapes and correctly classifies all points of the two datasets with the only exception of some points in the \texttt{circle} dataset. 
