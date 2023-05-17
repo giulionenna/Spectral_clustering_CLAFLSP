@@ -9,8 +9,8 @@ N = length(A);
 D = spalloc(K, K, K);
 U = zeros([N, K]);
 eig_iter = 1;
-debug = 1;
-
+debug = 0S
+if debug
 % Compute the greatest eigenvalue of the matrix A
 [lambda_max, v_max] = power_method(A, tol, maxiter);
 
@@ -24,6 +24,16 @@ for eig_iter = 1:K %for each eigenvalue to be computed
 
     % Deflate B
     B = B- lambda* v*v';
+end
+else
+    for eig_iter = 1:K %for each eigenvalue to be computed
+    [lambda, v] = inverse_power_method(A, tol, maxiter, factorization); %compute the greatest eigenvector of B
+    D(eig_iter, eig_iter) = lambda; %save eigenvalue of A from the back of the spectrum
+    U(:, eig_iter) = v; %save eigenvector of A 
+
+    % Deflate B
+    A = A- lambda* (v)*(v');
+    end
 end
 % %compute smallest eigenvalue and relative eigenvector
 % [lambda, v] = inverse_power_method(A, tol, maxiter, factorization);
@@ -47,7 +57,6 @@ end
 function [lambda, v] = inverse_power_method(A, tol, maxiter, factorization)
     N = length(A);
     v_0 = rand(N,1);
-    v_0 = v_0/norm(v_0);
     if strcmp(factorization, 'chol')
         [R, flag] = chol(A);
     end

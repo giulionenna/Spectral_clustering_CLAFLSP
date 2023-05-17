@@ -58,8 +58,8 @@ end
 %% --- TASK 2 ---
 
 for i=1:length(K)
-    [L_circle{i}, D_circle{i}] = graph_laplacian(W_circle{i});
-    [L_spiral{i}, D_spiral{i}] = graph_laplacian(W_spiral{i});
+    [L_circle{i}, D_circle{i}] = graph_laplacian_norm(W_circle{i});
+    [L_spiral{i}, D_spiral{i}] = graph_laplacian_norm(W_spiral{i});
 
     fig(3) = figure;
     spy(L_circle{i})

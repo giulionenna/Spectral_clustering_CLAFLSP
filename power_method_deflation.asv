@@ -1,4 +1,4 @@
-function [D, U] = inverse_power_method_deflation(A, K, tol, maxiter, factorization )
+function [D, U] = power_method_deflation(A, K, tol, maxiter, factorization)
 %INVERSE_POWER_METHOD computes eigenvalues and eigenvectors of a given matrix using the inverse power method algorithm
 %   A = SYIMMETRIC POSITIVE DEFINITE matrix
 %   K = number of eigenvectors and eigenvalues to be computed
@@ -10,6 +10,17 @@ D = spalloc(K, K, K);
 U = zeros([N, K]);
 eig_iter = 1;
 debug = 1;
+
+if issymmetric(A)
+    [lambda_min, v_min] = inverse_power_method(A, tol, maxiter, 'lu')
+else
+    print('Matrix is not symmetric')
+end
+
+if(lambda_min<0)
+    mu = abs(lambda_min)+tol;
+end
+A = A+mu*eye(N) %shift spectrum so that A is sps
 
 % Compute the greatest eigenvalue of the matrix A
 [lambda_max, v_max] = power_method(A, tol, maxiter);
