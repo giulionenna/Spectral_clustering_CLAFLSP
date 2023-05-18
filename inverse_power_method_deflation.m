@@ -1,4 +1,4 @@
-function [D, U] = inverse_power_method_deflation(A, K, tol, maxiter, factorization )
+function [D, U] = inverse_power_method_deflation(A, K, tol, maxiter, deflation_type)
 %INVERSE_POWER_METHOD computes eigenvalues and eigenvectors of a given matrix using the inverse power method algorithm
 %   A = SYIMMETRIC POSITIVE DEFINITE matrix
 %   K = number of eigenvectors and eigenvalues to be computed
@@ -8,64 +8,43 @@ function [D, U] = inverse_power_method_deflation(A, K, tol, maxiter, factorizati
 N = length(A);
 D = spalloc(K, K, K);
 U = zeros([N, K]);
-eig_iter = 1;
-debug = 1;
 
 % Compute the greatest eigenvalue of the matrix A
 [lambda_max, v_max] = power_method(A, tol, maxiter);
 
 % Compute the new matrix on which the power method will be applied
-B = lambda_max*eye(N)-A;
+% (spectrum shift)
+mu = lambda_max+1e3*tol;
+B = mu*eye(N)-A;
 
-for eig_iter = 1:K %for each eigenvalue to be computed
-    [lambda, v] = power_method(B, tol, maxiter); %compute the greatest eigenvector of B
-    D(eig_iter, eig_iter) = lambda_max-lambda; %save eigenvalue of A from the back of the spectrum
-    U(:, eig_iter) = v; %save eigenvector of A (is the same of B)
-
-    % Deflate B
-    B = B- lambda* v*v';
-end
-% %compute smallest eigenvalue and relative eigenvector
-% [lambda, v] = inverse_power_method(A, tol, maxiter, factorization);
-% D(eig_iter, eig_iter) = lambda;
-% U(:,eig_iter) = v;
-% 
-% %compute the householder matrix P such that Pv=e1
-% u = U(:,eig_iter);
-% u(1) = sign(u(1))*norm(u);
-% P = eye(N) - (2/norm(u)^2)*(u*u');
-% 
-% %compute similar matrix to A (same eigenvalues)
-% B = P*A*P';
-% A_2 = B(2:end,2:end);
-% [lambda, v] = inverse_power_method(A_2, tol, maxiter, factorization);
-% 
-% 
-% eig_iter = eig_iter+1;
-end
-
-function [lambda, v] = inverse_power_method(A, tol, maxiter, factorization)
-    N = length(A);
-    v_0 = rand(N,1);
-    v_0 = v_0/norm(v_0);
-    if strcmp(factorization, 'chol')
-        [R, flag] = chol(A);
+if strcmp(deflation_type, 'naive')
+    for eig_iter = 1:K %for each eigenvalue to be computed
+        [lambda, v] = power_method(B, tol, maxiter); %compute the greatest eigenvector of B
+        D(eig_iter, eig_iter) = mu-lambda; %save eigenvalue of A from the back of the spectrum
+        U(:, eig_iter) = v; %save eigenvector of A (is the same of B)
+        % Deflate B
+        B = B - lambda* (v)*(v');
     end
-    v_old = v_0 / norm(v_0);
-    lambda_old = 0;
-    lambda_new = 2;
-    k=0;
-    while k<maxiter && abs((lambda_old - lambda_new)/lambda_old)>tol
-        lambda_old = lambda_new;
-        z = R'\v_old;
-        v_new = R\z;
-        lambda_new = v_old'*v_new;
-        v_old = v_new/norm(v_new);
-        k = k+1;
+elseif strcmp(deflation_type, 'wiel')
+    % performing eigenvalues computation using Wielandt deflation
+    for eig_iter = 1:K %for each eigenvalue to be computed
+        [lambda, v] = power_method(B, tol, maxiter); %compute the greatest eigenvector of B
+        D(eig_iter, eig_iter) = mu-lambda; %save eigenvalue of A from the back of the spectrum
+        U(:, eig_iter) = v; %save eigenvector of A (is the same of B)
+        % Deflate B
+        [~, idx] = max(v);
+        idx = min(idx);
+        x = (1/lambda*v(idx))*(B(idx,:)');
+        B = B - lambda* (v)*(x');
     end
-    lambda = 1/lambda_new;
-    v = v_new/norm(v_new);
+    
+else
+    disp('Specify a valid deflation type')
 end
+
+
+end
+
 
 function [lambda, v] = power_method(A, tol, maxiter)
     N = length(A);
