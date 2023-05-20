@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.4)  20 MAY 2023 17:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.4)  20 MAY 2023 22:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1170,30 +1170,87 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--104
 
  []
 
-) [11] [12] (./appendix.tex (../inverse_power_method_deflation.m) [13])
+) [11] (./tasks/opt_task3.tex
+<pictures/ipmd_test/eigenvalues_comp.pdf, id=49725, 398.48875pt x 398.48875pt>
+File: pictures/ipmd_test/eigenvalues_comp.pdf Graphic file (type pdf)
+<use pictures/ipmd_test/eigenvalues_comp.pdf>
+Package pdftex.def Info: pictures/ipmd_test/eigenvalues_comp.pdf  used on input line 7.
+(pdftex.def)             Requested size: 199.24388pt x 199.24388pt.
+<pictures/ipmd_test/times.pdf, id=49726, 398.48875pt x 398.48875pt>
+File: pictures/ipmd_test/times.pdf Graphic file (type pdf)
+<use pictures/ipmd_test/times.pdf>
+Package pdftex.def Info: pictures/ipmd_test/times.pdf  used on input line 8.
+(pdftex.def)             Requested size: 199.24388pt x 199.24388pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--11
+
+ []
+
+<pictures/ipmd_test/eigenvector_1.pdf, id=49727, 398.48875pt x 398.48875pt>
+File: pictures/ipmd_test/eigenvector_1.pdf Graphic file (type pdf)
+<use pictures/ipmd_test/eigenvector_1.pdf>
+Package pdftex.def Info: pictures/ipmd_test/eigenvector_1.pdf  used on input line 15.
+(pdftex.def)             Requested size: 139.47314pt x 139.47314pt.
+<pictures/ipmd_test/eigenvector_2.pdf, id=49728, 398.48875pt x 398.48875pt>
+File: pictures/ipmd_test/eigenvector_2.pdf Graphic file (type pdf)
+<use pictures/ipmd_test/eigenvector_2.pdf>
+Package pdftex.def Info: pictures/ipmd_test/eigenvector_2.pdf  used on input line 16.
+(pdftex.def)             Requested size: 139.47314pt x 139.47314pt.
+<pictures/ipmd_test/eigenvector_3.pdf, id=49729, 398.48875pt x 398.48875pt>
+File: pictures/ipmd_test/eigenvector_3.pdf Graphic file (type pdf)
+<use pictures/ipmd_test/eigenvector_3.pdf>
+Package pdftex.def Info: pictures/ipmd_test/eigenvector_3.pdf  used on input line 17.
+(pdftex.def)             Requested size: 139.47314pt x 139.47314pt.
+[12 <./pictures/ipmd_test/eigenvalues_comp.pdf> <./pictures/ipmd_test/times.pdf> <./pictures/ipmd_test/eigenvector_1.pdf> <./pictures/ipmd_test/eigenvector_2.pdf> <./pictures/ipmd_test/eigenvector_3.pdf>]
+<pictures/ipmd_test/eigenvalues_comp_norm.pdf, id=49768, 398.48875pt x 398.48875pt>
+File: pictures/ipmd_test/eigenvalues_comp_norm.pdf Graphic file (type pdf)
+<use pictures/ipmd_test/eigenvalues_comp_norm.pdf>
+Package pdftex.def Info: pictures/ipmd_test/eigenvalues_comp_norm.pdf  used on input line 29.
+(pdftex.def)             Requested size: 199.24388pt x 199.24388pt.
+<pictures/ipmd_test/times_norm.pdf, id=49769, 398.48875pt x 398.48875pt>
+File: pictures/ipmd_test/times_norm.pdf Graphic file (type pdf)
+<use pictures/ipmd_test/times_norm.pdf>
+Package pdftex.def Info: pictures/ipmd_test/times_norm.pdf  used on input line 30.
+(pdftex.def)             Requested size: 199.24388pt x 199.24388pt.
+<pictures/ipmd_test/eigenvector_norm_1.pdf, id=49770, 398.48875pt x 398.48875pt>
+File: pictures/ipmd_test/eigenvector_norm_1.pdf Graphic file (type pdf)
+<use pictures/ipmd_test/eigenvector_norm_1.pdf>
+Package pdftex.def Info: pictures/ipmd_test/eigenvector_norm_1.pdf  used on input line 37.
+(pdftex.def)             Requested size: 139.47314pt x 139.47314pt.
+<pictures/ipmd_test/eigenvector_norm_2.pdf, id=49771, 398.48875pt x 398.48875pt>
+File: pictures/ipmd_test/eigenvector_norm_2.pdf Graphic file (type pdf)
+<use pictures/ipmd_test/eigenvector_norm_2.pdf>
+Package pdftex.def Info: pictures/ipmd_test/eigenvector_norm_2.pdf  used on input line 38.
+(pdftex.def)             Requested size: 139.47314pt x 139.47314pt.
+<pictures/ipmd_test/eigenvector_norm_3.pdf, id=49772, 398.48875pt x 398.48875pt>
+File: pictures/ipmd_test/eigenvector_norm_3.pdf Graphic file (type pdf)
+<use pictures/ipmd_test/eigenvector_norm_3.pdf>
+Package pdftex.def Info: pictures/ipmd_test/eigenvector_norm_3.pdf  used on input line 39.
+(pdftex.def)             Requested size: 139.47314pt x 139.47314pt.
+) [13 <./pictures/ipmd_test/eigenvalues_comp_norm.pdf> <./pictures/ipmd_test/times_norm.pdf> <./pictures/ipmd_test/eigenvector_norm_1.pdf> <./pictures/ipmd_test/eigenvector_norm_2.pdf> <./pictures/ipmd_test/eigenvector_norm_3.pdf>] (./appendix.tex (../inverse_power_method_deflation.m [14]))
 
 Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ Package `movie15' is obsolete and @@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-[14] (./main.aux)
+[15] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5B55ECD9FC1AB13A71F99A13735BB321;2937.
+(rerunfilecheck)             Checksum: B66D07E3AC38A33C501260688CEFDC60;2818.
  ) 
 Here is how much of TeX's memory you used:
- 18809 strings out of 478517
- 285429 string characters out of 5853902
- 1163025 words of memory out of 5000000
- 36073 multiletter control sequences out of 15000+600000
+ 18908 strings out of 478517
+ 288900 string characters out of 5853902
+ 1175025 words of memory out of 5000000
+ 36140 multiletter control sequences out of 15000+600000
  492408 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,11n,81p,966b,2413s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc} <c:/Users/giuli/.texlive2021/texmf-var/fonts/pk/ljfour/public/bbm/bbm10.600pk>{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (14 pages, 3277383 bytes).
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc} <c:/Users/giuli/.texlive2021/texmf-var/fonts/pk/ljfour/public/bbm/bbm10.600pk>{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (15 pages, 3448677 bytes).
 PDF statistics:
- 49959 PDF objects out of 55141 (max. 8388607)
- 49297 compressed objects within 493 object streams
- 216 named destinations out of 1000 (max. 500000)
- 257 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 50051 PDF objects out of 55141 (max. 8388607)
+ 49375 compressed objects within 494 object streams
+ 235 named destinations out of 1000 (max. 500000)
+ 307 words of extra memory for PDF output out of 10000 (max. 10000000)
 

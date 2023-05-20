@@ -1,8 +1,8 @@
-
+%SAME AS TEST SCRIPT BUT USING THE NORMALIZED LAPLACIAN 
 clear
 close all
 clc
-load("test_data.mat")
+load("test_data_norm.mat")
 close all
 print_fig = true
 L = L_circle{1};
@@ -26,7 +26,7 @@ for i=1:6
     legend('eigs', 'wiel deflation', 'naive deflation')
     set(fig(i), 'PaperSize', [14, 14]);
     if print_fig == true
-        print(fig(i), ['Latex\pictures\ipmd_test\eigenvector_', int2str(i), '.pdf'], '-dpdf')
+        print(fig(i), ['Latex\pictures\ipmd_test\eigenvector_norm_', int2str(i), '.pdf'], '-dpdf')
     end
 end
 
@@ -40,7 +40,7 @@ legend({'eigs', 'naive deflation', 'wiel deflation'}, 'Location', 'northwest')
 grid on
 if print_fig == true
     set(fig(7), 'PaperSize', [14, 14]);
-    print(fig(7), ['Latex\pictures\ipmd_test\eigenvalues_comp.pdf'], '-dpdf')
+    print(fig(7), ['Latex\pictures\ipmd_test\eigenvalues_comp_norm.pdf'], '-dpdf')
 end
 
 fig(8) = figure;
@@ -48,5 +48,5 @@ plot([times_naive, times_wiel], 'LineWidth',2)
 legend('naive deflation', 'wiel deflation')
 if print_fig == true
     set(fig(8), 'PaperSize', [14, 14]);
-        print(fig(8), ['Latex\pictures\ipmd_test\times'], '-dpdf')
+        print(fig(8), ['Latex\pictures\ipmd_test\times_norm'], '-dpdf')
     end

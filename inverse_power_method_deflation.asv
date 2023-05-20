@@ -18,6 +18,7 @@ mu = lambda_max+1e3*tol;
 B = mu*eye(N)-A;
 times_partial = zeros(K,1);
 if strcmp(deflation_type, 'naive')
+    tic
     for eig_iter = 1:K %for each eigenvalue to be computed
         tic
         [lambda, v] = power_method(B, tol, maxiter); %compute the greatest eigenvector of B
@@ -27,12 +28,13 @@ if strcmp(deflation_type, 'naive')
         % Deflate B
         B = B - lambda* (v)*(v');
     end
+    toc
 elseif strcmp(deflation_type, 'wiel')
     % performing eigenvalues computation using Wielandt deflation
+    tic
     for eig_iter = 1:K %for each eigenvalue to be computed
-        tic
         [lambda, v] = power_method(B, tol, maxiter); %compute the greatest eigenvector of B
-        times_partial(eig_iter) = toc;
+        times_partial(eig_iter) = tic;
         D(eig_iter, eig_iter) = mu-lambda; %save eigenvalue of A from the back of the spectrum
         U(:, eig_iter) = v; %save eigenvector of A (is the same of B)
         % Deflate B
@@ -41,6 +43,7 @@ elseif strcmp(deflation_type, 'wiel')
         x = (1/lambda*v(idx))*(B(idx,:)');
         B = B - lambda* (v)*(x');
     end
+    toc
 else
     disp('Specify a valid deflation type')
 end
