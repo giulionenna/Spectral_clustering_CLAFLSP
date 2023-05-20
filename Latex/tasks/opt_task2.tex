@@ -64,5 +64,62 @@ Given the results shown above, we are now ready to define the Power Method Algor
   \end{mdframed}
 
   \subsection*{Power Method for computing the Smallest Eigenvalue}
-  
-  
+  Our original objective was to compute the eigenvalues and eigenvectors of the laplacian matrix starting from the smallest. This is possible through the power method even if the output of the algorithm is the greatest eigenvalue of a given matrix. \\
+  \\
+  From now on let's consider that we are always working with the laplacian matrix \(L\), which is symmetric and positive semidefinite. Let:
+  \[
+  \sigma(L) = \{\lambda_1, \lambda_2, ... \lambda_n\} \quad \text{with}  \quad \lambda_1 \geq \lambda_2 \geq ... \geq \lambda_n = 0 
+  \]
+  Using the \textit{Power Method} algorithm we are able to compute \(\lambda_1\). Hence if we define the matrix \(\tilde{L} := (\lambda_1 + \epsilon) I - L\) with \(\epsilon > 0\) we have that, if \(\lambda\) is an eigenvalue of \(L\) and \(v\) its relative eigenvector:
+  \begin{eqnarray}
+    \tilde{L}v = \left((\lambda_1 + \epsilon) I - L\right)v = (\lambda_1 + \epsilon)v - \lambda v = (\lambda_1 + \epsilon - \lambda ) v
+  \end{eqnarray}
+  From which we obtain that if \(\lambda\) is an eigenvalue of \(L\) and \(v\) is its relative eigenvector, then \(\tilde{\lambda} = (\lambda_1 + \epsilon - \lambda)\) is an eigevalue of \(\tilde{L}\) with \(v\) as its relative eigenvector. Moreover, since \(\epsilon>0\) all eigenvalues of \(\tilde{L}\) are strictly greater than 0 hence \(\tilde{L}\) is symmetric positive definite. If we now take a look at the spectrum of \(\tilde{L}\):
+  \begin{equation}
+    \sigma(\tilde{L}) = \{ \epsilon , \tilde{\lambda}_2, ... \tilde{\lambda}_n\}
+  \end{equation}
+  we now find out that \(\tilde{\lambda}_n = \lambda_1 + \epsilon - \lambda_n\) is the greatest eigenvalue of \(\tilde{L}\). Hence we can compute \(\tilde{\lambda}_n\) using the \textit{Power Method} on \(\tilde{L}\) and retrieve \(\lambda_n = \lambda_1 + \epsilon - \tilde{\lambda}_n \). In this way we computed the smallest eigenvector of \(L\) using the power method.
+
+  \subsection*{Deflation principle for eigenvalue computation}
+  Let \(L\) be a matrix and:
+
+  \[
+    \sigma(L) = \{\lambda_1, \lambda_2, ... \lambda_n\} \quad \text{with eigenvectors}  \quad \{u_1, u_2, ... , u_n\}
+    \]
+If we define rank 1 matrices as \(U_i = u_i u_i^T\), then it can be shown that the original matrix \(L\) can be decomposed as:
+\[
+L =  \sum \limits_{i=1}^{n} \lambda_i U_i. 
+\] 
+Furthermore, for every \(k \in \{1, 2, ... , n\}\), if we define \(L_k:= L - \lambda_k U_k\) then we say that the matrix \(L\) has been \textit{deflated} of the eigenvalue \(\lambda_k\). In fact:
+\[
+    \sigma(L_k) = \{\lambda_1, \lambda_2, ..., \underbrace{\lambda_k}_{=0}, ...,  \lambda_n\} 
+\]
+This means that, given the matrix \(L\), we can find its greatest eigenvalue \(\lambda_1\) and relative eigenvector \(u_1\), then deflate \(L\) of \(\lambda_1\) obtaining \(L_1 = L - \lambda_1 u_1 u_1^T\). At this point the greatest eigenvector of \(L_1\) will be \(\lambda_2\) hence we can compute \(\lambda_2\) and \(u_2\) simply running the \textit{Power Method} on \(L_1\) and so on.
+\\
+\\
+At this point we are ready to combine everything we presented until now to formulate an algorithm that will return the \(K\) \textbf{smallest} eigenvalues of a matrix \(L\) and its relative eigenvalues. 
+\\
+\\
+Given a matrix \(L\) we can compute its greatest eigenvector \(\lambda_{\text{max}}\) and define the matrix \(\tilde{L} = (\lambda_{\text{max}} + \epsilon) I - L\). Performing the Power method onto \(\tilde{L}\) will return \(\tilde{\lambda}_1\) from which we can retrieve the smallest eigenvalue of \(L\) that we now call \(\lambda_1\). Deflating \(\tilde{L}\) of \(\tilde{\lambda}_1\) we obtain \(\tilde{L}_1\). Performing the power method onto \(\tilde{L}_1\) will return \(\tilde{\lambda}_2\) from which we can retrieve the second smallest eigenvalue of \(L\), \(\lambda_2\). Performing this basic algorithm for \(K\) steps we obtain the \(K\) smallest eigenvalues and relative eigenvectors of the matrix \(L\). This can be summarized in the following algorithm:
+
+\begin{algorithm}[H]\caption{Inverse Power Method for computing K smallest eigenvalues}
+    \label{algo:inverse_power_method_deflation}
+    \begin{algorithmic}
+     \State Given \(L\), \(K\), \(\epsilon\), \texttt{Maxiter}, \textit{tol} 
+     \State \(\lambda_{\text{max}} , v_{\text{max}} \gets \textit{Power Method}(L, \texttt{tol, Maxiter})\)
+     \State \(\mu = \lambda_{\text{max}}+ \epsilon\)
+     \State \(B \gets \mu I - L\)
+     \State \(k \gets 0\)
+     \For{ \(k \in \{1, 2, ..., K\}\)}
+     \State \(\lambda , v \gets \textit{Power Method}(B, \texttt{tol, Maxiter})\)
+     \State \(\lambda_k \gets \mu - \lambda\)
+     \State \(u_k \gets v\)
+     \State \(B \gets \textit{Deflate}(B, \texttt{type})\)
+     \EndFor
+     \State
+     \Return \(\{\lambda_1, ..., \lambda_K\} , \{u_1, ... u_k\}\)
+    \end{algorithmic}            
+  \end{algorithm}
+
+  This algorithm has been implemented in the a MATLAB function as shown in \ref{matlab:inverse_power_method_deflation}
+

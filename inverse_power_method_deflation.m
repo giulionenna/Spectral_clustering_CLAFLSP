@@ -1,9 +1,9 @@
 function [D, U] = inverse_power_method_deflation(A, K, tol, maxiter, deflation_type)
-%INVERSE_POWER_METHOD computes eigenvalues and eigenvectors of a given matrix using the inverse power method algorithm
-%   A = SYIMMETRIC POSITIVE DEFINITE matrix
+%INVERSE_POWER_METHOD_DEFLATION computes the K smallest eigenvalues and eigenvectors of a 
+% A using the power method algorithm
+%   A = SYIMMETRIC POSITIVE SEMIDEFINITE matrix
 %   K = number of eigenvectors and eigenvalues to be computed
-%   factorization = type of factorization to be used for solving the linear
-%   system
+%   deflation = type of deflation to be used (naive or wiel)
 %
 N = length(A);
 D = spalloc(K, K, K);
