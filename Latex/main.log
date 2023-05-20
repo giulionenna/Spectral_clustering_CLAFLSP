@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.4)  11 MAY 2023 17:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.4)  20 MAY 2023 15:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -214,22 +214,158 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@postskip=\skip55
 \thm@headsep=\skip56
 \dth@everypar=\toks34
+) (c:/texlive/2021/texmf-dist/tex/latex/mdframed/mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+ (c:/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+ (c:/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (c:/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (c:/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (c:/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-06-18 L3 programming layer (loader) 
+ (c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count280
+\l__pdf_internal_box=\box56
+))
+Package: xparse 2021-06-18 L3 Experimental document command parser
+) (c:/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count281
+) (c:/texlive/2021/texmf-dist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2020-07-03 v2.32 Module abspage for zref (HO)
+ (c:/texlive/2021/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2020-07-03 v2.32 Module base for zref (HO)
+ (c:/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (c:/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (c:/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (c:/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+) (c:/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 764.
+Package zref Info: New property: default on input line 765.
+Package zref Info: New property: page on input line 766.
+) (c:/texlive/2021/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\c@abspage=\count282
+Package zref Info: New property: abspage on input line 66.
+) (c:/texlive/2021/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+\mdf@templength=\skip57
+\c@mdf@globalstyle@cnt=\count283
+\mdf@skipabove@length=\skip58
+\mdf@skipbelow@length=\skip59
+\mdf@leftmargin@length=\skip60
+\mdf@rightmargin@length=\skip61
+\mdf@innerleftmargin@length=\skip62
+\mdf@innerrightmargin@length=\skip63
+\mdf@innertopmargin@length=\skip64
+\mdf@innerbottommargin@length=\skip65
+\mdf@splittopskip@length=\skip66
+\mdf@splitbottomskip@length=\skip67
+\mdf@outermargin@length=\skip68
+\mdf@innermargin@length=\skip69
+\mdf@linewidth@length=\skip70
+\mdf@innerlinewidth@length=\skip71
+\mdf@middlelinewidth@length=\skip72
+\mdf@outerlinewidth@length=\skip73
+\mdf@roundcorner@length=\skip74
+\mdf@footenotedistance@length=\skip75
+\mdf@userdefinedwidth@length=\skip76
+\mdf@needspace@length=\skip77
+\mdf@frametitleaboveskip@length=\skip78
+\mdf@frametitlebelowskip@length=\skip79
+\mdf@frametitlerulewidth@length=\skip80
+\mdf@frametitleleftmargin@length=\skip81
+\mdf@frametitlerightmargin@length=\skip82
+\mdf@shadowsize@length=\skip83
+\mdf@extratopheight@length=\skip84
+\mdf@subtitleabovelinewidth@length=\skip85
+\mdf@subtitlebelowlinewidth@length=\skip86
+\mdf@subtitleaboveskip@length=\skip87
+\mdf@subtitlebelowskip@length=\skip88
+\mdf@subtitleinneraboveskip@length=\skip89
+\mdf@subtitleinnerbelowskip@length=\skip90
+\mdf@subsubtitleabovelinewidth@length=\skip91
+\mdf@subsubtitlebelowlinewidth@length=\skip92
+\mdf@subsubtitleaboveskip@length=\skip93
+\mdf@subsubtitlebelowskip@length=\skip94
+\mdf@subsubtitleinneraboveskip@length=\skip95
+\mdf@subsubtitleinnerbelowskip@length=\skip96
+ (c:/texlive/2021/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
+File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
+)
+\mdf@frametitlebox=\box57
+\mdf@footnotebox=\box58
+\mdf@splitbox@one=\box59
+\mdf@splitbox@two=\box60
+\mdf@splitbox@save=\box61
+\mdfsplitboxwidth=\skip97
+\mdfsplitboxtotalwidth=\skip98
+\mdfsplitboxheight=\skip99
+\mdfsplitboxdepth=\skip100
+\mdfsplitboxtotalheight=\skip101
+\mdfframetitleboxwidth=\skip102
+\mdfframetitleboxtotalwidth=\skip103
+\mdfframetitleboxheight=\skip104
+\mdfframetitleboxdepth=\skip105
+\mdfframetitleboxtotalheight=\skip106
+\mdffootnoteboxwidth=\skip107
+\mdffootnoteboxtotalwidth=\skip108
+\mdffootnoteboxheight=\skip109
+\mdffootnoteboxdepth=\skip110
+\mdffootnoteboxtotalheight=\skip111
+\mdftotallinewidth=\skip112
+\mdfboundingboxwidth=\skip113
+\mdfboundingboxtotalwidth=\skip114
+\mdfboundingboxheight=\skip115
+\mdfboundingboxdepth=\skip116
+\mdfboundingboxtotalheight=\skip117
+\mdf@freevspace@length=\skip118
+\mdf@horizontalwidthofbox@length=\skip119
+\mdf@verticalmarginwhole@length=\skip120
+\mdf@horizontalspaceofbox=\skip121
+\mdfsubtitleheight=\skip122
+\mdfsubsubtitleheight=\skip123
+\c@mdfcountframes=\count284
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count285
+\c@mdf@env@i=\count286
+\c@mdf@env@ii=\count287
+\c@mdf@zref@counter=\count288
+Package zref Info: New property: mdf@pagevalue on input line 895.
 ) (c:/texlive/2021/texmf-dist/tex/latex/accents/accents.sty
 Package: accents 2006/05/12 v1.4 Math Accent Tools
 \cc@skew=\dimen165
 \cc@wd=\dimen166
-\cc@code=\count280
-\cc@group=\count281
-\cc@skewchar=\count282
+\cc@code=\count289
+\cc@group=\count290
+\cc@skewchar=\count291
 ) (c:/texlive/2021/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
 \col@sep=\dimen167
-\ar@mcellbox=\box56
+\ar@mcellbox=\box62
 \extrarowheight=\dimen168
 \NC@list=\toks35
-\extratabsurround=\skip57
-\backup@length=\skip58
-\ar@cellbox=\box57
+\extratabsurround=\skip124
+\backup@length=\skip125
+\ar@cellbox=\box63
 ) (c:/texlive/2021/texmf-dist/tex/latex/cases/cases.sty
 Package: cases 2020/03/29 ver 3.2
 \numc@numwid=\dimen169
@@ -245,12 +381,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen177
 \cmidrulekern=\dimen178
 \defaultaddspace=\dimen179
-\@cmidla=\count283
-\@cmidlb=\count284
+\@cmidla=\count292
+\@cmidlb=\count293
 \@aboverulesep=\dimen180
 \@belowrulesep=\dimen181
-\@thisruleclass=\count285
-\@lastruleclass=\count286
+\@thisruleclass=\count294
+\@lastruleclass=\count295
 \@thisrulewidth=\dimen182
 ) (c:/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
@@ -265,8 +401,8 @@ Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \caption@hangindent=\dimen189
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count287
-\c@continuedfloat=\count288
+\c@caption@flags=\count296
+\c@continuedfloat=\count297
 Package caption Info: float package is loaded.
 Package caption Info: rotating package is loaded.
 ) (c:/texlive/2021/texmf-dist/tex/latex/cancel/cancel.sty
@@ -279,27 +415,27 @@ LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
 ) (c:/texlive/2021/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count289
-\sf@farskip=\skip59
+\c@KVtest=\count298
+\sf@farskip=\skip126
 \sf@captopadj=\dimen190
-\sf@capskip=\skip60
-\sf@nearskip=\skip61
-\c@subfigure=\count290
-\c@subfigure@save=\count291
-\c@lofdepth=\count292
-\c@subtable=\count293
-\c@subtable@save=\count294
-\c@lotdepth=\count295
-\sf@top=\skip62
-\sf@bottom=\skip63
+\sf@capskip=\skip127
+\sf@nearskip=\skip128
+\c@subfigure=\count299
+\c@subfigure@save=\count300
+\c@lofdepth=\count301
+\c@subtable=\count302
+\c@subtable@save=\count303
+\c@lotdepth=\count304
+\sf@top=\skip129
+\sf@bottom=\skip130
 ) (c:/texlive/2021/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip64
+\labelindent=\skip131
 \enit@outerparindent=\dimen191
 \enit@toks=\toks36
-\enit@inbox=\box58
-\enit@count@id=\count296
-\enitdp@description=\count297
+\enit@inbox=\box64
+\enit@count@id=\count305
+\enitdp@description=\count306
 ) (c:/texlive/2021/texmf-dist/tex/latex/movie15/movie15.sty
 Package: movie15 2012/05/16
  (c:/texlive/2021/texmf-dist/tex/generic/iftex/ifpdf.sty
@@ -309,12 +445,12 @@ Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
 ) (c:/texlive/2021/texmf-dist/tex/latex/everyshi/everyshi.sty
 Package: everyshi 2020/11/18 v4.00 EveryShipout Package
 )
-\@MXV@page=\count298
-\@MXV@adict=\count299
-\@MXV@aadict=\count300
-\@MXV@includes=\count301
-\@MXV@players=\count302
-\@MXV@links=\count303
+\@MXV@page=\count307
+\@MXV@adict=\count308
+\@MXV@aadict=\count309
+\@MXV@includes=\count310
+\@MXV@players=\count311
+\@MXV@links=\count312
 \@MXV@width=\dimen192
 \@MXV@height=\dimen193
 \@MXV@depth=\dimen194
@@ -324,27 +460,27 @@ Package: everyshi 2020/11/18 v4.00 EveryShipout Package
 \@MXV@braiselen=\dimen198
 \@MXV@start=\dimen199
 \@MXV@end=\dimen256
-\@MXV@textbox=\box59
+\@MXV@textbox=\box65
 ) (c:/texlive/2021/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
 \@float@every@algorithm=\toks37
-\c@algorithm=\count304
+\c@algorithm=\count313
 ) (c:/texlive/2021/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
  (c:/texlive/2021/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count305
-\c@ALG@rem=\count306
-\c@ALG@nested=\count307
-\ALG@tlm=\skip65
-\ALG@thistlm=\skip66
-\c@ALG@Lnr=\count308
-\c@ALG@blocknr=\count309
-\c@ALG@storecount=\count310
-\c@ALG@tmpcounter=\count311
-\ALG@tmplength=\skip67
+\c@ALG@line=\count314
+\c@ALG@rem=\count315
+\c@ALG@nested=\count316
+\ALG@tlm=\skip132
+\ALG@thistlm=\skip133
+\c@ALG@Lnr=\count317
+\c@ALG@blocknr=\count318
+\c@ALG@storecount=\count319
+\c@ALG@tmpcounter=\count320
+\ALG@tmplength=\skip134
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (c:/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
@@ -354,25 +490,25 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@old@col=\dimen259
 \TX@target=\dimen260
 \TX@delta=\dimen261
-\TX@cols=\count312
+\TX@cols=\count321
 \TX@ftn=\toks38
 ) (c:/texlive/2021/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2021-05-07 v4.16 Multi-page Table package (DPC)
-\LTleft=\skip68
-\LTright=\skip69
-\LTpre=\skip70
-\LTpost=\skip71
-\LTchunksize=\count313
+\LTleft=\skip135
+\LTright=\skip136
+\LTpre=\skip137
+\LTpost=\skip138
+\LTchunksize=\count322
 \LTcapwidth=\dimen262
-\LT@head=\box60
-\LT@firsthead=\box61
-\LT@foot=\box62
-\LT@lastfoot=\box63
-\LT@gbox=\box64
-\LT@cols=\count314
-\LT@rows=\count315
-\c@LT@tables=\count316
-\c@LT@chunks=\count317
+\LT@head=\box66
+\LT@firsthead=\box67
+\LT@foot=\box68
+\LT@lastfoot=\box69
+\LT@gbox=\box70
+\LT@cols=\count323
+\LT@rows=\count324
+\c@LT@tables=\count325
+\c@LT@chunks=\count326
 \LT@p@ftn=\toks39
 ) (c:/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
@@ -382,10 +518,10 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 \verbatim@line=\toks41
 \verbatim@in@stream=\read2
 )
-\c@thm=\count318
-\c@defn=\count319
-\c@conj=\count320
-\c@exmp=\count321
+\c@thm=\count327
+\c@defn=\count328
+\c@conj=\count329
+\c@exmp=\count330
  (c:/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (c:/texlive/2021/texmf-dist/tex/latex/lm/lmodern.sty
@@ -424,34 +560,16 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 ) (c:/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
- (c:/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (c:/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (c:/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-) (c:/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-) (c:/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (c:/texlive/2021/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+ (c:/texlive/2021/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 ) (c:/texlive/2021/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 ) (c:/texlive/2021/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (c:/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty
-Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (c:/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen263
-\Hy@linkcounter=\count322
-\Hy@pagecounter=\count323
+\Hy@linkcounter=\count331
+\Hy@pagecounter=\count332
  (c:/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -460,10 +578,8 @@ Now handling font encoding PD1 ...
 File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel languages
 ) (c:/texlive/2021/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-) (c:/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count324
+\Hy@SavedSpaceFactor=\count333
  (c:/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -476,7 +592,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count325
+\c@Hy@tempcnt=\count334
  (c:/texlive/2021/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -488,7 +604,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (c:/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count326
+\Fld@menulength=\count335
 \Field@Width=\dimen265
 \Fld@charsize=\dimen266
 Package hyperref Info: Hyper figures OFF on input line 6076.
@@ -500,13 +616,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6101.
 Package hyperref Info: PDF/A mode OFF on input line 6106.
 LaTeX Info: Redefining \ref on input line 6146.
 LaTeX Info: Redefining \pageref on input line 6150.
- (c:/texlive/2021/texmf-dist/tex/latex/base/atbegshi-ltx.sty
-Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
-package with kernel methods
-)
-\Hy@abspage=\count327
-\c@Item=\count328
-\c@Hfootnote=\count329
+\Hy@abspage=\count336
+\c@Item=\count337
+\c@Hfootnote=\count338
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (c:/texlive/2021/texmf-dist/tex/latex/hyperref/hpdftex.def
@@ -515,8 +627,9 @@ File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery package
 with kernel methods
 )
-\Fld@listcount=\count330
-\c@bookmark@seq@number=\count331
+\HyAnn@Count=\count339
+\Fld@listcount=\count340
+\c@bookmark@seq@number=\count341
  (c:/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
  (c:/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -524,45 +637,37 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
-\Hy@SectionHShift=\skip72
+\Hy@SectionHShift=\skip139
 )
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 109.
 Package hyperref Info: Option `colorlinks' set `true' on input line 109.
- (c:/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.sty (c:/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2021-06-18 L3 programming layer (loader) 
- (c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count332
-\l__pdf_internal_box=\box65
-)) (c:/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2021-06-18 L3 Experimental document command parser
-)
+ (c:/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2021-03-03 v2.3 150 paragraphs of Lorem Ipsum dummy text
  (c:/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
 File: lipsum.ltd.tex 2021-03-03 v2.3 The Lorem ipsum dummy text
 )) (c:/texlive/2021/texmf-dist/tex/latex/tools/dcolumn.sty
 Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
 )
-\c@osservazione=\count333
-\c@observation=\count334
+\c@osservazione=\count342
+\c@observation=\count343
  (c:/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count335
-\lst@gtempboxa=\box66
+\lst@mode=\count344
+\lst@gtempboxa=\box71
 \lst@token=\toks42
-\lst@length=\count336
+\lst@length=\count345
 \lst@currlwidth=\dimen267
-\lst@column=\count337
-\lst@pos=\count338
+\lst@column=\count346
+\lst@pos=\count347
 \lst@lostspace=\dimen268
 \lst@width=\dimen269
-\lst@newlines=\count339
-\lst@lineno=\count340
+\lst@newlines=\count348
+\lst@lineno=\count349
 \lst@maxwidth=\dimen270
  (c:/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count341
-\lst@skipnumbers=\count342
-\lst@framebox=\box67
+\c@lstnumber=\count350
+\lst@skipnumbers=\count351
+\lst@framebox=\box72
 ) (c:/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
@@ -647,16 +752,16 @@ LaTeX Font Info:    ... okay on input line 172.
 
 (c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count343
+\scratchcounter=\count352
 \scratchdimen=\dimen271
-\scratchbox=\box68
-\nofMPsegments=\count344
-\nofMParguments=\count345
+\scratchbox=\box73
+\nofMPsegments=\count353
+\nofMParguments=\count354
 \everyMPshowfont=\toks43
-\MPscratchCnt=\count346
+\MPscratchCnt=\count355
 \MPscratchDim=\dimen272
-\MPnumerator=\count347
-\makeMPintoPDFobject=\count348
+\MPnumerator=\count356
+\makeMPintoPDFobject=\count357
 \everyMPtoPDFconversion=\toks44
 ) (c:/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -681,7 +786,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (c:/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count349
+\c@section@level=\count358
 )
 LaTeX Info: Redefining \ref on input line 172.
 LaTeX Info: Redefining \pageref on input line 172.
@@ -690,7 +795,7 @@ LaTeX Info: Redefining \nameref on input line 172.
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-\c@lstlisting=\count350
+\c@lstlisting=\count359
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 174.
  (c:/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -741,7 +846,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 174.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 174.
-<pictures/circle_scatterplot.pdf, id=37, 398.48875pt x 313.17pt>
+<pictures/circle_scatterplot.pdf, id=41, 398.48875pt x 313.17pt>
 File: pictures/circle_scatterplot.pdf Graphic file (type pdf)
 <use pictures/circle_scatterplot.pdf>
 Package pdftex.def Info: pictures/circle_scatterplot.pdf  used on input line 177.
@@ -750,7 +855,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 17
  (c:/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<pictures/spiral_scatterplot.pdf, id=38, 398.48875pt x 313.17pt>
+<pictures/spiral_scatterplot.pdf, id=42, 398.48875pt x 313.17pt>
 File: pictures/spiral_scatterplot.pdf Graphic file (type pdf)
 <use pictures/spiral_scatterplot.pdf>
 Package pdftex.def Info: pictures/spiral_scatterplot.pdf  used on input line 180.
@@ -774,17 +879,17 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on in
 (../knn_graph.m [1
 
 {c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./pictures/circle_scatterplot.pdf> <./pictures/spiral_scatterplot.pdf>])
-<pictures/circle_KNN_K10.pdf, id=68, 398.48875pt x 313.17pt>
+<pictures/circle_KNN_K10.pdf, id=72, 398.48875pt x 313.17pt>
 File: pictures/circle_KNN_K10.pdf Graphic file (type pdf)
 <use pictures/circle_KNN_K10.pdf>
 Package pdftex.def Info: pictures/circle_KNN_K10.pdf  used on input line 13.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/circle_KNN_K20.pdf, id=69, 398.48875pt x 313.17pt>
+<pictures/circle_KNN_K20.pdf, id=73, 398.48875pt x 313.17pt>
 File: pictures/circle_KNN_K20.pdf Graphic file (type pdf)
 <use pictures/circle_KNN_K20.pdf>
 Package pdftex.def Info: pictures/circle_KNN_K20.pdf  used on input line 14.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/circle_KNN_K40.pdf, id=70, 398.48875pt x 313.17pt>
+<pictures/circle_KNN_K40.pdf, id=74, 398.48875pt x 313.17pt>
 File: pictures/circle_KNN_K40.pdf Graphic file (type pdf)
 <use pictures/circle_KNN_K40.pdf>
 Package pdftex.def Info: pictures/circle_KNN_K40.pdf  used on input line 15.
@@ -794,17 +899,17 @@ Overfull \hbox (15.52423pt too wide) in paragraph at lines 13--16
  [][][][][][] 
  []
 
-<pictures/spiral_KNN_K10.pdf, id=71, 398.48875pt x 313.17pt>
+<pictures/spiral_KNN_K10.pdf, id=75, 398.48875pt x 313.17pt>
 File: pictures/spiral_KNN_K10.pdf Graphic file (type pdf)
 <use pictures/spiral_KNN_K10.pdf>
 Package pdftex.def Info: pictures/spiral_KNN_K10.pdf  used on input line 21.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/spiral_KNN_K20.pdf, id=72, 398.48875pt x 313.17pt>
+<pictures/spiral_KNN_K20.pdf, id=76, 398.48875pt x 313.17pt>
 File: pictures/spiral_KNN_K20.pdf Graphic file (type pdf)
 <use pictures/spiral_KNN_K20.pdf>
 Package pdftex.def Info: pictures/spiral_KNN_K20.pdf  used on input line 22.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/spiral_KNN_K40.pdf, id=73, 398.48875pt x 313.17pt>
+<pictures/spiral_KNN_K40.pdf, id=77, 398.48875pt x 313.17pt>
 File: pictures/spiral_KNN_K40.pdf Graphic file (type pdf)
 <use pictures/spiral_KNN_K40.pdf>
 Package pdftex.def Info: pictures/spiral_KNN_K40.pdf  used on input line 23.
@@ -819,17 +924,17 @@ LaTeX Font Info:    Trying to load font information for U+bbm on input line 3.
  (c:/texlive/2021/texmf-dist/tex/latex/bbm-macros/ubbm.fd
 File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
 ) (../graph_laplacian.m)
-<pictures/circle_LaplacianSpy_K10.pdf, id=49308, 398.48875pt x 313.17pt>
+<pictures/circle_LaplacianSpy_K10.pdf, id=49312, 398.48875pt x 313.17pt>
 File: pictures/circle_LaplacianSpy_K10.pdf Graphic file (type pdf)
 <use pictures/circle_LaplacianSpy_K10.pdf>
 Package pdftex.def Info: pictures/circle_LaplacianSpy_K10.pdf  used on input line 10.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/circle_LaplacianSpy_K20.pdf, id=49309, 398.48875pt x 313.17pt>
+<pictures/circle_LaplacianSpy_K20.pdf, id=49313, 398.48875pt x 313.17pt>
 File: pictures/circle_LaplacianSpy_K20.pdf Graphic file (type pdf)
 <use pictures/circle_LaplacianSpy_K20.pdf>
 Package pdftex.def Info: pictures/circle_LaplacianSpy_K20.pdf  used on input line 11.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/circle_LaplacianSpy_K40.pdf, id=49310, 398.48875pt x 313.17pt>
+<pictures/circle_LaplacianSpy_K40.pdf, id=49314, 398.48875pt x 313.17pt>
 File: pictures/circle_LaplacianSpy_K40.pdf Graphic file (type pdf)
 <use pictures/circle_LaplacianSpy_K40.pdf>
 Package pdftex.def Info: pictures/circle_LaplacianSpy_K40.pdf  used on input line 12.
@@ -839,12 +944,12 @@ Overfull \hbox (15.52423pt too wide) in paragraph at lines 10--13
  [][][][][][] 
  []
 
-<pictures/spiral_LaplacianSpy_K10.pdf, id=49313, 398.48875pt x 313.17pt>
+<pictures/spiral_LaplacianSpy_K10.pdf, id=49317, 398.48875pt x 313.17pt>
 File: pictures/spiral_LaplacianSpy_K10.pdf Graphic file (type pdf)
 <use pictures/spiral_LaplacianSpy_K10.pdf>
 Package pdftex.def Info: pictures/spiral_LaplacianSpy_K10.pdf  used on input line 19.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/spiral_LaplacianSpy_K20.pdf, id=49314, 398.48875pt x 313.17pt>
+<pictures/spiral_LaplacianSpy_K20.pdf, id=49318, 398.48875pt x 313.17pt>
 File: pictures/spiral_LaplacianSpy_K20.pdf Graphic file (type pdf)
 <use pictures/spiral_LaplacianSpy_K20.pdf>
 Package pdftex.def Info: pictures/spiral_LaplacianSpy_K20.pdf  used on input line 20.
@@ -893,17 +998,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--8
  []
 
 (../task6_7_8.m)
-<pictures/circle_SpectralClustering_K10.pdf, id=49356, 398.48875pt x 313.17pt>
+<pictures/circle_SpectralClustering_K10.pdf, id=49360, 398.48875pt x 313.17pt>
 File: pictures/circle_SpectralClustering_K10.pdf Graphic file (type pdf)
 <use pictures/circle_SpectralClustering_K10.pdf>
 Package pdftex.def Info: pictures/circle_SpectralClustering_K10.pdf  used on input line 12.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/circle_SpectralClustering_K20.pdf, id=49357, 398.48875pt x 313.17pt>
+<pictures/circle_SpectralClustering_K20.pdf, id=49361, 398.48875pt x 313.17pt>
 File: pictures/circle_SpectralClustering_K20.pdf Graphic file (type pdf)
 <use pictures/circle_SpectralClustering_K20.pdf>
 Package pdftex.def Info: pictures/circle_SpectralClustering_K20.pdf  used on input line 13.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/circle_SpectralClustering_K40.pdf, id=49358, 398.48875pt x 313.17pt>
+<pictures/circle_SpectralClustering_K40.pdf, id=49362, 398.48875pt x 313.17pt>
 File: pictures/circle_SpectralClustering_K40.pdf Graphic file (type pdf)
 <use pictures/circle_SpectralClustering_K40.pdf>
 Package pdftex.def Info: pictures/circle_SpectralClustering_K40.pdf  used on input line 14.
@@ -913,17 +1018,17 @@ Overfull \hbox (15.52423pt too wide) in paragraph at lines 12--15
  [][][][][][] 
  []
 
-<pictures/spiral_SpectralClustering_K10.pdf, id=49359, 398.48875pt x 313.17pt>
+<pictures/spiral_SpectralClustering_K10.pdf, id=49363, 398.48875pt x 313.17pt>
 File: pictures/spiral_SpectralClustering_K10.pdf Graphic file (type pdf)
 <use pictures/spiral_SpectralClustering_K10.pdf>
 Package pdftex.def Info: pictures/spiral_SpectralClustering_K10.pdf  used on input line 20.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/spiral_SpectralClustering_K20.pdf, id=49360, 398.48875pt x 313.17pt>
+<pictures/spiral_SpectralClustering_K20.pdf, id=49364, 398.48875pt x 313.17pt>
 File: pictures/spiral_SpectralClustering_K20.pdf Graphic file (type pdf)
 <use pictures/spiral_SpectralClustering_K20.pdf>
 Package pdftex.def Info: pictures/spiral_SpectralClustering_K20.pdf  used on input line 21.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/spiral_SpectralClustering_K40.pdf, id=49361, 398.48875pt x 313.17pt>
+<pictures/spiral_SpectralClustering_K40.pdf, id=49365, 398.48875pt x 313.17pt>
 File: pictures/spiral_SpectralClustering_K40.pdf Graphic file (type pdf)
 <use pictures/spiral_SpectralClustering_K40.pdf>
 Package pdftex.def Info: pictures/spiral_SpectralClustering_K40.pdf  used on input line 22.
@@ -939,23 +1044,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--200
  []
 
 (./tasks/task9.tex
-<pictures/circle_Kmeans_nospectral.pdf, id=49404, 398.48875pt x 313.17pt>
+<pictures/circle_Kmeans_nospectral.pdf, id=49408, 398.48875pt x 313.17pt>
 File: pictures/circle_Kmeans_nospectral.pdf Graphic file (type pdf)
 <use pictures/circle_Kmeans_nospectral.pdf>
 Package pdftex.def Info: pictures/circle_Kmeans_nospectral.pdf  used on input line 8.
 (pdftex.def)             Requested size: 179.31828pt x 140.92519pt.
-<pictures/spiral_Kmeans_nospectral.pdf, id=49405, 398.48875pt x 313.17pt>
+<pictures/spiral_Kmeans_nospectral.pdf, id=49409, 398.48875pt x 313.17pt>
 File: pictures/spiral_Kmeans_nospectral.pdf Graphic file (type pdf)
 <use pictures/spiral_Kmeans_nospectral.pdf>
 Package pdftex.def Info: pictures/spiral_Kmeans_nospectral.pdf  used on input line 11.
 (pdftex.def)             Requested size: 179.31828pt x 140.92519pt.
  [6 <./pictures/circle_SpectralClustering_K10.pdf> <./pictures/circle_SpectralClustering_K20.pdf> <./pictures/circle_SpectralClustering_K40.pdf> <./pictures/spiral_SpectralClustering_K10.pdf> <./pictures/spiral_SpectralClustering_K20.pdf> <./pictures/spiral_SpectralClustering_K40.pdf>]
-<pictures/circle_dbscan_nospectral.pdf, id=49432, 398.48875pt x 313.17pt>
+<pictures/circle_dbscan_nospectral.pdf, id=49436, 398.48875pt x 313.17pt>
 File: pictures/circle_dbscan_nospectral.pdf Graphic file (type pdf)
 <use pictures/circle_dbscan_nospectral.pdf>
 Package pdftex.def Info: pictures/circle_dbscan_nospectral.pdf  used on input line 23.
 (pdftex.def)             Requested size: 179.31828pt x 140.92519pt.
-<pictures/spiral_dbscan_nospectral.pdf, id=49433, 398.48875pt x 313.17pt>
+<pictures/spiral_dbscan_nospectral.pdf, id=49437, 398.48875pt x 313.17pt>
 File: pictures/spiral_dbscan_nospectral.pdf Graphic file (type pdf)
 <use pictures/spiral_dbscan_nospectral.pdf>
 Package pdftex.def Info: pictures/spiral_dbscan_nospectral.pdf  used on input line 26.
@@ -966,17 +1071,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--202
  []
 
 (./tasks/opt_task1.tex [7 <./pictures/circle_Kmeans_nospectral.pdf> <./pictures/spiral_Kmeans_nospectral.pdf> <./pictures/circle_dbscan_nospectral.pdf> <./pictures/spiral_dbscan_nospectral.pdf>]
-<pictures/atom_scatterplot.pdf, id=49458, 398.48875pt x 313.17pt>
+<pictures/atom_scatterplot.pdf, id=49462, 398.48875pt x 313.17pt>
 File: pictures/atom_scatterplot.pdf Graphic file (type pdf)
 <use pictures/atom_scatterplot.pdf>
 Package pdftex.def Info: pictures/atom_scatterplot.pdf  used on input line 5.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/tetra_scatterplot.pdf, id=49459, 398.48875pt x 313.17pt>
+<pictures/tetra_scatterplot.pdf, id=49463, 398.48875pt x 313.17pt>
 File: pictures/tetra_scatterplot.pdf Graphic file (type pdf)
 <use pictures/tetra_scatterplot.pdf>
 Package pdftex.def Info: pictures/tetra_scatterplot.pdf  used on input line 6.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/chainlink_scatterplot.pdf, id=49460, 398.48875pt x 313.17pt>
+<pictures/chainlink_scatterplot.pdf, id=49464, 398.48875pt x 313.17pt>
 File: pictures/chainlink_scatterplot.pdf Graphic file (type pdf)
 <use pictures/chainlink_scatterplot.pdf>
 Package pdftex.def Info: pictures/chainlink_scatterplot.pdf  used on input line 7.
@@ -986,17 +1091,17 @@ Overfull \hbox (15.52423pt too wide) in paragraph at lines 5--8
  [][][][][][] 
  []
 
-<pictures/atom_KNN_K5.pdf, id=49461, 398.48875pt x 313.17pt>
+<pictures/atom_KNN_K5.pdf, id=49465, 398.48875pt x 313.17pt>
 File: pictures/atom_KNN_K5.pdf Graphic file (type pdf)
 <use pictures/atom_KNN_K5.pdf>
 Package pdftex.def Info: pictures/atom_KNN_K5.pdf  used on input line 16.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/tetra_KNN_K5.pdf, id=49462, 398.48875pt x 313.17pt>
+<pictures/tetra_KNN_K5.pdf, id=49466, 398.48875pt x 313.17pt>
 File: pictures/tetra_KNN_K5.pdf Graphic file (type pdf)
 <use pictures/tetra_KNN_K5.pdf>
 Package pdftex.def Info: pictures/tetra_KNN_K5.pdf  used on input line 17.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/chainlink_KNN_K5.pdf, id=49463, 398.48875pt x 313.17pt>
+<pictures/chainlink_KNN_K5.pdf, id=49467, 398.48875pt x 313.17pt>
 File: pictures/chainlink_KNN_K5.pdf Graphic file (type pdf)
 <use pictures/chainlink_KNN_K5.pdf>
 Package pdftex.def Info: pictures/chainlink_KNN_K5.pdf  used on input line 18.
@@ -1006,17 +1111,17 @@ Overfull \hbox (15.52423pt too wide) in paragraph at lines 16--19
  [][][][][][] 
  []
 
-<pictures/atom_SpectralClustering_K5.pdf, id=49466, 398.48875pt x 313.17pt>
+<pictures/atom_SpectralClustering_K5.pdf, id=49470, 398.48875pt x 313.17pt>
 File: pictures/atom_SpectralClustering_K5.pdf Graphic file (type pdf)
 <use pictures/atom_SpectralClustering_K5.pdf>
 Package pdftex.def Info: pictures/atom_SpectralClustering_K5.pdf  used on input line 32.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/tetra_SpectralClustering_K10.pdf, id=49467, 398.48875pt x 313.17pt>
+<pictures/tetra_SpectralClustering_K10.pdf, id=49471, 398.48875pt x 313.17pt>
 File: pictures/tetra_SpectralClustering_K10.pdf Graphic file (type pdf)
 <use pictures/tetra_SpectralClustering_K10.pdf>
 Package pdftex.def Info: pictures/tetra_SpectralClustering_K10.pdf  used on input line 33.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/chainlink_SpectralClustering_K10.pdf, id=49468, 398.48875pt x 313.17pt>
+<pictures/chainlink_SpectralClustering_K10.pdf, id=49472, 398.48875pt x 313.17pt>
 File: pictures/chainlink_SpectralClustering_K10.pdf Graphic file (type pdf)
 <use pictures/chainlink_SpectralClustering_K10.pdf>
 Package pdftex.def Info: pictures/chainlink_SpectralClustering_K10.pdf  used on input line 34.
@@ -1026,30 +1131,54 @@ Overfull \hbox (15.52423pt too wide) in paragraph at lines 32--35
  [][][][][][] 
  []
 
-[8 <./pictures/atom_scatterplot.pdf> <./pictures/tetra_scatterplot.pdf> <./pictures/chainlink_scatterplot.pdf> <./pictures/atom_KNN_K5.pdf> <./pictures/tetra_KNN_K5.pdf> <./pictures/chainlink_KNN_K5.pdf>])
+[8 <./pictures/atom_scatterplot.pdf> <./pictures/tetra_scatterplot.pdf> <./pictures/chainlink_scatterplot.pdf> <./pictures/atom_KNN_K5.pdf> <./pictures/tetra_KNN_K5.pdf> <./pictures/chainlink_KNN_K5.pdf>]) (./tasks/opt_task2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
+
+ []
+
+[9 <./pictures/atom_SpectralClustering_K5.pdf> <./pictures/tetra_SpectralClustering_K10.pdf> <./pictures/chainlink_SpectralClustering_K10.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 33--38
+
+ []
+
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 46.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 63.
+)
 
 Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ Package `movie15' is obsolete and @@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-[9 <./pictures/atom_SpectralClustering_K5.pdf> <./pictures/tetra_SpectralClustering_K10.pdf> <./pictures/chainlink_SpectralClustering_K10.pdf>] (./main.aux)
+[10] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7A13FED96CA3E3427B17829C85B2CAF4;1622.
+(rerunfilecheck)             Checksum: 04CDE728EB2F186F48681A4C8C158328;2038.
  ) 
 Here is how much of TeX's memory you used:
- 17564 strings out of 478517
- 264157 string characters out of 5853902
- 961034 words of memory out of 5000000
- 34949 multiletter control sequences out of 15000+600000
- 483230 words of font info for 126 fonts, out of 8000000 for 9000
+ 18688 strings out of 478517
+ 283633 string characters out of 5853902
+ 996025 words of memory out of 5000000
+ 36036 multiletter control sequences out of 15000+600000
+ 483872 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,80p,963b,2413s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc} <c:/Users/giuli/.texlive2021/texmf-var/fonts/pk/ljfour/public/bbm/bbm10.600pk>{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (9 pages, 3234599 bytes).
+ 73i,11n,81p,963b,2413s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc} <c:/Users/giuli/.texlive2021/texmf-var/fonts/pk/ljfour/public/bbm/bbm10.600pk>{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (10 pages, 3260951 bytes).
 PDF statistics:
- 49810 PDF objects out of 55141 (max. 8388607)
- 49158 compressed objects within 492 object streams
- 127 named destinations out of 1000 (max. 500000)
- 225 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 49842 PDF objects out of 55141 (max. 8388607)
+ 49185 compressed objects within 492 object streams
+ 138 named destinations out of 1000 (max. 500000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 

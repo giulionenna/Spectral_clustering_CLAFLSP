@@ -1,0 +1,68 @@
+In order to implement the Spectral clustering algorithm we heavily relied on the computation of eigenvectors and eigenvalues. In particular, we have computed eigenvetors and eigenvalues of the Laplacian matrix \(L\) relative to the neighborhood graph in order to perform the clustering in the space of the eigenvectors where points are well separated (in an euclidean sense). \\
+\\
+In this section we focus on implementing an iterative algorithm to compute eigenvalues and eigenvectors of a 
+matrix starting with the smallest eigenvalue \(\lambda_1\) and relative eigenvector \(u_1\) and then continuing 
+with the computation of \(\lambda_2\), \(\lambda_3\) ... \(\lambda_K\) until  a desired number \(K\) of eigenvalues has been computed. 
+% Since we are focusing on computing eigenvalues in an ascending order of magnitude, we use the notation:
+% \[
+% |\lambda_1| \leq |\lambda_2| \leq \dots \leq |\lambda_n|    
+% \]
+\\
+\\
+The algorithm is based on the \textbf{Power Method} and the \textbf{Deflation} principle. Let's start with a brief explanation of what the power method does.
+\subsection*{The Power Method}
+The power method is an iterative algorithm that, given a matrix \(A\in\mathbb{R}^{n \times n}\), gives as output the greatest eigenvalue in modulus \(\lambda_1\) and its relative eigenvalue \(u_1\).\\
+\\
+Let \(v_0\in \mathbb{R}^n\) be an initial vector and let \(\sigma(A) = \{\lambda_2, \lambda_2, ... \lambda_n\}\) be the spectrum of \(A\) with eigenvalues sorted in a descending order of magnitude. Let \(u_1, u_2, ... u_n\) be the relative eigenvectors of each eigenvalue. if the matrix \(A\) is diagonalizable, then its eigenvectors form a basis for \(\mathbb{R}^n\), hence:
+\begin{equation*}
+    v_0= \alpha_1 u_1 + \alpha_2 u_2 + ... + \alpha_n u_n 
+\end{equation*}
+Furthermore:
+\begin{align} \label{eq_power_1}
+    v_1 := A v_0 = & \alpha_1 A u_1 + \alpha_2 A u_2 + ... + \alpha_n  A u_n = \\
+    & \alpha_1 \lambda_1 u_1 + \alpha_2 \lambda_2 u_2 + ... + \alpha_n  \lambda_n u_n \\
+    & \lambda_1 \left(\alpha_1 u_1 + \alpha_2 \frac{\lambda_2}{\lambda_1} u_2 + ... + \alpha_n  \frac{\lambda_n}{\lambda_1} u_n\right)
+\end{align}
+Then if we define \(v_k := A^k v_0\), using \ref{eq_power_1} iteratively we find that:
+\begin{equation}\label{eq_power_3}
+    v_k = \lambda_1^k \left(\alpha_1 u_1 + \alpha_2 \left(\frac{\lambda_2}{\lambda_1}\right)^k u_2 + ... + \alpha_n  \left(\frac{\lambda_n}{\lambda_1}\right)^k u_n\right)
+\end{equation}
+Since \(\lim_{k \to \infty} \left(\frac{\lambda_i}{\lambda_1}\right)^k = 0\) for all \(i \in \{2, 3, ... n\}\), we find out that:
+\begin{equation} \label{eq_power_2}
+    \lim_{k \to \infty} \frac{1}{\lambda_1^k} v_k = \alpha_1 u_1 \quad \quad  \text{and} \quad \quad \lim_{k \to \infty} \frac{v_{k+1}}{v_k} = \lambda_1
+\end{equation}
+where the limit operator used in conjunction with vectors in \(\mathbb{R}^n\) is to be intended \textit{component-wise}.
+\\
+\\
+Given \(v_0\) and \(v_k\) defined before, let us now define the \textit{Rayleigh quotient} as follows:
+\begin{equation}
+    \mathcal{R}_A^{(k)} := \frac{v_k^T A v_k}{v_k^T v_k} = \frac{v_k^T  v_{k+1}}{v_k^T v_k} 
+\end{equation}
+Using \ref{eq_power_3}, after some computation, it can be proved that:
+\begin{equation} \label{eq_power_4}
+    \lim_{k \to \infty} \frac{v_k^T  v_{k+1}}{v_k^T v_k} = \lim_{k \to \infty} \left(\frac{\lambda_1^{2k+1}}{\lambda_1^{2k}}\right) \left(\frac{\alpha_1^2 u_1^T u_1 + \mathcal{O}\left(\frac{\lambda_2}{\lambda_1}\right)^{k+1}+ ... + \mathcal{O}\left(\frac{\lambda_n}{\lambda_1}\right)^{k+1}}{\alpha_1^2 u_1^T u_1 + \mathcal{O}\left(\frac{\lambda_2}{\lambda_1}\right)^{k}+ ... + \mathcal{O}\left(\frac{\lambda_n}{\lambda_1}\right)^{k}}\right) = \lambda_1
+\end{equation}
+Given the results shown above, we are now ready to define the Power Method Algorithm based on the Rayleigh Quotient convergence criterium. The following algorithm returns both the greatest eigenvalue in modulus of the matrix \(A\) and its corresponding eigenvector.
+\begin{algorithm}\caption{Power Method with Rayleigh Quotient}
+    \label{algo:power_method}
+    \begin{algorithmic}
+     \State Given \(v_{\text{old}} \neq 0\), \(\lambda_1^{\text{old}} = 1\) 
+     \State \(v_{\text{old}} \gets \frac{v_{\text{old}}}{\| v_{\text{old}}\|}\)
+     \State \(K \gets 0\)
+     \While{ \(K \leq \texttt{MaxIter}\) and \(\frac{|\lambda_1^{\text{new}}-\lambda_1^{\text{old}}|}{\lambda_1^{\text{new}}}>\texttt{tol}\)}
+     \State \(\lambda_1^{\text{old}} \gets \lambda_1^{\text{new}}\)
+     \State \(v_{\text{new}} \gets  A v_{\text{old}}\)
+     \State \(\lambda_1^{\text{new}} \gets  v_{\text{old}}^T v_{\text{new}}\)
+     \State \(K \gets K+ 1\)
+     \EndWhile
+     \State
+     \Return \(\lambda_1^{\text{new}}\) , \(v_{\text{new}}\)
+    \end{algorithmic}            
+  \end{algorithm}
+  \begin{mdframed}
+    Through some algebraic estimation of \ref{eq_power_4}, it is possible to prove that the speed of convergence is controlled by the factor \(\left(\frac{\lambda_2}{\lambda_1}\right)^k\) hence the speed of convergence depends on how much the greatest eigenvector \(\lambda_1\) is far from \(\lambda_2\) in the spectrum space. Moreover, for symmetric matrices, since eigenvectors form an orthonormal basis, the speed of convergence of the algorithm \textbf{doubles}.
+  \end{mdframed}
+
+  \subsection*{Power Method for computing the Smallest Eigenvalue}
+  
+  

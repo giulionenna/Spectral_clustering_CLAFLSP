@@ -2,6 +2,8 @@ clear
 close all
 clc
 
+eigs_true = true;
+deflation = 'wiel';
 print_fig = false; %Set TRUE for Printing figures to file
 %% ---- LOADING DATA -----
 load("data\Circle.mat", "X");
@@ -83,8 +85,13 @@ eigs_circle={};
 eigs_spiral={};
 
 for i=1:length(K) %for each value of K tested
-    [U_circle{i}, eigs_circle{i}] = eigs(L_circle{i}, n_eigs, 'smallestabs'); %compute the n_eigs smallest eigenvalues for circle
-    [U_spiral{i}, eigs_spiral{i}] = eigs(L_spiral{i}, n_eigs, 'smallestabs'); %same for spiral
+    if eigs_true
+        [U_circle{i}, eigs_circle{i}] = eigs(L_circle{i}, n_eigs, 'smallestabs'); %compute the n_eigs smallest eigenvalues for circle
+        [U_spiral{i}, eigs_spiral{i}] = eigs(L_spiral{i}, n_eigs, 'smallestabs'); %same for spiral
+    else
+        [eigs_circle{i}, U_circle{i}] = inverse_power_method_deflation(L_circle{i}, n_eigs, 1e-12, 1e4, deflation);
+        [eigs_spiral{i}, U_spiral{i}] = inverse_power_method_deflation(L_spiral{i}, n_eigs, 1e-12, 1e4, deflation);
+    end
 end
 
 for i = 1:length(K)
@@ -175,8 +182,5 @@ end
 
 %% test code
 
-for i=1:length(spiral_X)
-    U(i,:) = U_spiral{1}(i,:)/norm(U_spiral{1}(i,:));
-end
-scatter3(U(:,1), U(:,2),U(:,3))
+save('test_data', '-mat')
 

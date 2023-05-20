@@ -1,9 +1,18 @@
-rng(420)
-
-A = rand(100);
 
 
-A = A'*A;
-d_true = eigs(A, 5, 'smallestabs')
-d_max_true = eigs(A, 1)
-d = inverse_power_method_deflation(A, 5, 1e-12, 100000000)
+load("test_data.mat")
+close all
+L = L_circle{1};
+
+[u_true, D_true] = eigs(L, 6, 'smallestabs');
+d_true = diag(D_true);
+[D_wiel, u_wiel] = inverse_power_method_deflation(L, 6, 1e-12, 1e4, 'wiel');
+d_wiel = diag(D_wiel);
+[D_naive, u_naive] = inverse_power_method_deflation(L, 6, 1e-12, 1e4, 'naive');
+d_naive = diag(D_naive);
+
+for i=1:6
+    figure(i)
+    plot([u_true(:,i), u_wiel(:,i), u_naive(:,i)])
+end
+
