@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.4)  20 MAY 2023 22:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.4)  21 MAY 2023 13:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -846,7 +846,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 174.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 174.
-<pictures/circle_scatterplot.pdf, id=53, 398.48875pt x 313.17pt>
+<pictures/circle_scatterplot.pdf, id=57, 398.48875pt x 313.17pt>
 File: pictures/circle_scatterplot.pdf Graphic file (type pdf)
 <use pictures/circle_scatterplot.pdf>
 Package pdftex.def Info: pictures/circle_scatterplot.pdf  used on input line 177.
@@ -855,7 +855,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 17
  (c:/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<pictures/spiral_scatterplot.pdf, id=54, 398.48875pt x 313.17pt>
+<pictures/spiral_scatterplot.pdf, id=58, 398.48875pt x 313.17pt>
 File: pictures/spiral_scatterplot.pdf Graphic file (type pdf)
 <use pictures/spiral_scatterplot.pdf>
 Package pdftex.def Info: pictures/spiral_scatterplot.pdf  used on input line 180.
@@ -879,17 +879,17 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on in
 (../knn_graph.m [1
 
 {c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./pictures/circle_scatterplot.pdf> <./pictures/spiral_scatterplot.pdf>])
-<pictures/circle_KNN_K10.pdf, id=84, 398.48875pt x 313.17pt>
+<pictures/circle_KNN_K10.pdf, id=88, 398.48875pt x 313.17pt>
 File: pictures/circle_KNN_K10.pdf Graphic file (type pdf)
 <use pictures/circle_KNN_K10.pdf>
 Package pdftex.def Info: pictures/circle_KNN_K10.pdf  used on input line 13.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/circle_KNN_K20.pdf, id=85, 398.48875pt x 313.17pt>
+<pictures/circle_KNN_K20.pdf, id=89, 398.48875pt x 313.17pt>
 File: pictures/circle_KNN_K20.pdf Graphic file (type pdf)
 <use pictures/circle_KNN_K20.pdf>
 Package pdftex.def Info: pictures/circle_KNN_K20.pdf  used on input line 14.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/circle_KNN_K40.pdf, id=86, 398.48875pt x 313.17pt>
+<pictures/circle_KNN_K40.pdf, id=90, 398.48875pt x 313.17pt>
 File: pictures/circle_KNN_K40.pdf Graphic file (type pdf)
 <use pictures/circle_KNN_K40.pdf>
 Package pdftex.def Info: pictures/circle_KNN_K40.pdf  used on input line 15.
@@ -899,17 +899,17 @@ Overfull \hbox (15.52423pt too wide) in paragraph at lines 13--16
  [][][][][][] 
  []
 
-<pictures/spiral_KNN_K10.pdf, id=87, 398.48875pt x 313.17pt>
+<pictures/spiral_KNN_K10.pdf, id=91, 398.48875pt x 313.17pt>
 File: pictures/spiral_KNN_K10.pdf Graphic file (type pdf)
 <use pictures/spiral_KNN_K10.pdf>
 Package pdftex.def Info: pictures/spiral_KNN_K10.pdf  used on input line 21.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/spiral_KNN_K20.pdf, id=88, 398.48875pt x 313.17pt>
+<pictures/spiral_KNN_K20.pdf, id=92, 398.48875pt x 313.17pt>
 File: pictures/spiral_KNN_K20.pdf Graphic file (type pdf)
 <use pictures/spiral_KNN_K20.pdf>
 Package pdftex.def Info: pictures/spiral_KNN_K20.pdf  used on input line 22.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/spiral_KNN_K40.pdf, id=89, 398.48875pt x 313.17pt>
+<pictures/spiral_KNN_K40.pdf, id=93, 398.48875pt x 313.17pt>
 File: pictures/spiral_KNN_K40.pdf Graphic file (type pdf)
 <use pictures/spiral_KNN_K40.pdf>
 Package pdftex.def Info: pictures/spiral_KNN_K40.pdf  used on input line 23.
@@ -924,17 +924,17 @@ LaTeX Font Info:    Trying to load font information for U+bbm on input line 3.
  (c:/texlive/2021/texmf-dist/tex/latex/bbm-macros/ubbm.fd
 File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
 ) (../graph_laplacian.m)
-<pictures/circle_LaplacianSpy_K10.pdf, id=49324, 398.48875pt x 313.17pt>
+<pictures/circle_LaplacianSpy_K10.pdf, id=49328, 398.48875pt x 313.17pt>
 File: pictures/circle_LaplacianSpy_K10.pdf Graphic file (type pdf)
 <use pictures/circle_LaplacianSpy_K10.pdf>
 Package pdftex.def Info: pictures/circle_LaplacianSpy_K10.pdf  used on input line 10.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/circle_LaplacianSpy_K20.pdf, id=49325, 398.48875pt x 313.17pt>
+<pictures/circle_LaplacianSpy_K20.pdf, id=49329, 398.48875pt x 313.17pt>
 File: pictures/circle_LaplacianSpy_K20.pdf Graphic file (type pdf)
 <use pictures/circle_LaplacianSpy_K20.pdf>
 Package pdftex.def Info: pictures/circle_LaplacianSpy_K20.pdf  used on input line 11.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/circle_LaplacianSpy_K40.pdf, id=49326, 398.48875pt x 313.17pt>
+<pictures/circle_LaplacianSpy_K40.pdf, id=49330, 398.48875pt x 313.17pt>
 File: pictures/circle_LaplacianSpy_K40.pdf Graphic file (type pdf)
 <use pictures/circle_LaplacianSpy_K40.pdf>
 Package pdftex.def Info: pictures/circle_LaplacianSpy_K40.pdf  used on input line 12.
@@ -944,12 +944,12 @@ Overfull \hbox (15.52423pt too wide) in paragraph at lines 10--13
  [][][][][][] 
  []
 
-<pictures/spiral_LaplacianSpy_K10.pdf, id=49329, 398.48875pt x 313.17pt>
+<pictures/spiral_LaplacianSpy_K10.pdf, id=49333, 398.48875pt x 313.17pt>
 File: pictures/spiral_LaplacianSpy_K10.pdf Graphic file (type pdf)
 <use pictures/spiral_LaplacianSpy_K10.pdf>
 Package pdftex.def Info: pictures/spiral_LaplacianSpy_K10.pdf  used on input line 19.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/spiral_LaplacianSpy_K20.pdf, id=49330, 398.48875pt x 313.17pt>
+<pictures/spiral_LaplacianSpy_K20.pdf, id=49334, 398.48875pt x 313.17pt>
 File: pictures/spiral_LaplacianSpy_K20.pdf Graphic file (type pdf)
 <use pictures/spiral_LaplacianSpy_K20.pdf>
 Package pdftex.def Info: pictures/spiral_LaplacianSpy_K20.pdf  used on input line 20.
@@ -998,17 +998,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--8
  []
 
 (../task6_7_8.m)
-<pictures/circle_SpectralClustering_K10.pdf, id=49372, 398.48875pt x 313.17pt>
+<pictures/circle_SpectralClustering_K10.pdf, id=49376, 398.48875pt x 313.17pt>
 File: pictures/circle_SpectralClustering_K10.pdf Graphic file (type pdf)
 <use pictures/circle_SpectralClustering_K10.pdf>
 Package pdftex.def Info: pictures/circle_SpectralClustering_K10.pdf  used on input line 12.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/circle_SpectralClustering_K20.pdf, id=49373, 398.48875pt x 313.17pt>
+<pictures/circle_SpectralClustering_K20.pdf, id=49377, 398.48875pt x 313.17pt>
 File: pictures/circle_SpectralClustering_K20.pdf Graphic file (type pdf)
 <use pictures/circle_SpectralClustering_K20.pdf>
 Package pdftex.def Info: pictures/circle_SpectralClustering_K20.pdf  used on input line 13.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/circle_SpectralClustering_K40.pdf, id=49374, 398.48875pt x 313.17pt>
+<pictures/circle_SpectralClustering_K40.pdf, id=49378, 398.48875pt x 313.17pt>
 File: pictures/circle_SpectralClustering_K40.pdf Graphic file (type pdf)
 <use pictures/circle_SpectralClustering_K40.pdf>
 Package pdftex.def Info: pictures/circle_SpectralClustering_K40.pdf  used on input line 14.
@@ -1018,17 +1018,17 @@ Overfull \hbox (15.52423pt too wide) in paragraph at lines 12--15
  [][][][][][] 
  []
 
-<pictures/spiral_SpectralClustering_K10.pdf, id=49375, 398.48875pt x 313.17pt>
+<pictures/spiral_SpectralClustering_K10.pdf, id=49379, 398.48875pt x 313.17pt>
 File: pictures/spiral_SpectralClustering_K10.pdf Graphic file (type pdf)
 <use pictures/spiral_SpectralClustering_K10.pdf>
 Package pdftex.def Info: pictures/spiral_SpectralClustering_K10.pdf  used on input line 20.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/spiral_SpectralClustering_K20.pdf, id=49376, 398.48875pt x 313.17pt>
+<pictures/spiral_SpectralClustering_K20.pdf, id=49380, 398.48875pt x 313.17pt>
 File: pictures/spiral_SpectralClustering_K20.pdf Graphic file (type pdf)
 <use pictures/spiral_SpectralClustering_K20.pdf>
 Package pdftex.def Info: pictures/spiral_SpectralClustering_K20.pdf  used on input line 21.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/spiral_SpectralClustering_K40.pdf, id=49377, 398.48875pt x 313.17pt>
+<pictures/spiral_SpectralClustering_K40.pdf, id=49381, 398.48875pt x 313.17pt>
 File: pictures/spiral_SpectralClustering_K40.pdf Graphic file (type pdf)
 <use pictures/spiral_SpectralClustering_K40.pdf>
 Package pdftex.def Info: pictures/spiral_SpectralClustering_K40.pdf  used on input line 22.
@@ -1044,23 +1044,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--200
  []
 
 (./tasks/task9.tex
-<pictures/circle_Kmeans_nospectral.pdf, id=49420, 398.48875pt x 313.17pt>
+<pictures/circle_Kmeans_nospectral.pdf, id=49424, 398.48875pt x 313.17pt>
 File: pictures/circle_Kmeans_nospectral.pdf Graphic file (type pdf)
 <use pictures/circle_Kmeans_nospectral.pdf>
 Package pdftex.def Info: pictures/circle_Kmeans_nospectral.pdf  used on input line 8.
 (pdftex.def)             Requested size: 179.31828pt x 140.92519pt.
-<pictures/spiral_Kmeans_nospectral.pdf, id=49421, 398.48875pt x 313.17pt>
+<pictures/spiral_Kmeans_nospectral.pdf, id=49425, 398.48875pt x 313.17pt>
 File: pictures/spiral_Kmeans_nospectral.pdf Graphic file (type pdf)
 <use pictures/spiral_Kmeans_nospectral.pdf>
 Package pdftex.def Info: pictures/spiral_Kmeans_nospectral.pdf  used on input line 11.
 (pdftex.def)             Requested size: 179.31828pt x 140.92519pt.
  [6 <./pictures/circle_SpectralClustering_K10.pdf> <./pictures/circle_SpectralClustering_K20.pdf> <./pictures/circle_SpectralClustering_K40.pdf> <./pictures/spiral_SpectralClustering_K10.pdf> <./pictures/spiral_SpectralClustering_K20.pdf> <./pictures/spiral_SpectralClustering_K40.pdf>]
-<pictures/circle_dbscan_nospectral.pdf, id=49448, 398.48875pt x 313.17pt>
+<pictures/circle_dbscan_nospectral.pdf, id=49452, 398.48875pt x 313.17pt>
 File: pictures/circle_dbscan_nospectral.pdf Graphic file (type pdf)
 <use pictures/circle_dbscan_nospectral.pdf>
 Package pdftex.def Info: pictures/circle_dbscan_nospectral.pdf  used on input line 23.
 (pdftex.def)             Requested size: 179.31828pt x 140.92519pt.
-<pictures/spiral_dbscan_nospectral.pdf, id=49449, 398.48875pt x 313.17pt>
+<pictures/spiral_dbscan_nospectral.pdf, id=49453, 398.48875pt x 313.17pt>
 File: pictures/spiral_dbscan_nospectral.pdf Graphic file (type pdf)
 <use pictures/spiral_dbscan_nospectral.pdf>
 Package pdftex.def Info: pictures/spiral_dbscan_nospectral.pdf  used on input line 26.
@@ -1070,18 +1070,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--202
 
  []
 
-(./tasks/opt_task1.tex [7 <./pictures/circle_Kmeans_nospectral.pdf> <./pictures/spiral_Kmeans_nospectral.pdf> <./pictures/circle_dbscan_nospectral.pdf> <./pictures/spiral_dbscan_nospectral.pdf>]
-<pictures/atom_scatterplot.pdf, id=49474, 398.48875pt x 313.17pt>
+(./tasks/opt_task4.tex [7 <./pictures/circle_Kmeans_nospectral.pdf> <./pictures/spiral_Kmeans_nospectral.pdf> <./pictures/circle_dbscan_nospectral.pdf> <./pictures/spiral_dbscan_nospectral.pdf>])
+Underfull \hbox (badness 10000) in paragraph at lines 16--204
+
+ []
+
+(./tasks/opt_task1.tex
+<pictures/atom_scatterplot.pdf, id=49479, 398.48875pt x 313.17pt>
 File: pictures/atom_scatterplot.pdf Graphic file (type pdf)
 <use pictures/atom_scatterplot.pdf>
 Package pdftex.def Info: pictures/atom_scatterplot.pdf  used on input line 5.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/tetra_scatterplot.pdf, id=49475, 398.48875pt x 313.17pt>
+<pictures/tetra_scatterplot.pdf, id=49480, 398.48875pt x 313.17pt>
 File: pictures/tetra_scatterplot.pdf Graphic file (type pdf)
 <use pictures/tetra_scatterplot.pdf>
 Package pdftex.def Info: pictures/tetra_scatterplot.pdf  used on input line 6.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/chainlink_scatterplot.pdf, id=49476, 398.48875pt x 313.17pt>
+<pictures/chainlink_scatterplot.pdf, id=49481, 398.48875pt x 313.17pt>
 File: pictures/chainlink_scatterplot.pdf Graphic file (type pdf)
 <use pictures/chainlink_scatterplot.pdf>
 Package pdftex.def Info: pictures/chainlink_scatterplot.pdf  used on input line 7.
@@ -1091,17 +1096,17 @@ Overfull \hbox (15.52423pt too wide) in paragraph at lines 5--8
  [][][][][][] 
  []
 
-<pictures/atom_KNN_K5.pdf, id=49477, 398.48875pt x 313.17pt>
+<pictures/atom_KNN_K5.pdf, id=49482, 398.48875pt x 313.17pt>
 File: pictures/atom_KNN_K5.pdf Graphic file (type pdf)
 <use pictures/atom_KNN_K5.pdf>
 Package pdftex.def Info: pictures/atom_KNN_K5.pdf  used on input line 16.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/tetra_KNN_K5.pdf, id=49478, 398.48875pt x 313.17pt>
+<pictures/tetra_KNN_K5.pdf, id=49483, 398.48875pt x 313.17pt>
 File: pictures/tetra_KNN_K5.pdf Graphic file (type pdf)
 <use pictures/tetra_KNN_K5.pdf>
 Package pdftex.def Info: pictures/tetra_KNN_K5.pdf  used on input line 17.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/chainlink_KNN_K5.pdf, id=49479, 398.48875pt x 313.17pt>
+<pictures/chainlink_KNN_K5.pdf, id=49484, 398.48875pt x 313.17pt>
 File: pictures/chainlink_KNN_K5.pdf Graphic file (type pdf)
 <use pictures/chainlink_KNN_K5.pdf>
 Package pdftex.def Info: pictures/chainlink_KNN_K5.pdf  used on input line 18.
@@ -1111,17 +1116,18 @@ Overfull \hbox (15.52423pt too wide) in paragraph at lines 16--19
  [][][][][][] 
  []
 
-<pictures/atom_SpectralClustering_K5.pdf, id=49482, 398.48875pt x 313.17pt>
+[8 <./pictures/atom_scatterplot.pdf> <./pictures/tetra_scatterplot.pdf> <./pictures/chainlink_scatterplot.pdf>]
+<pictures/atom_SpectralClustering_K5.pdf, id=49562, 398.48875pt x 313.17pt>
 File: pictures/atom_SpectralClustering_K5.pdf Graphic file (type pdf)
 <use pictures/atom_SpectralClustering_K5.pdf>
 Package pdftex.def Info: pictures/atom_SpectralClustering_K5.pdf  used on input line 32.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/tetra_SpectralClustering_K10.pdf, id=49483, 398.48875pt x 313.17pt>
+<pictures/tetra_SpectralClustering_K10.pdf, id=49563, 398.48875pt x 313.17pt>
 File: pictures/tetra_SpectralClustering_K10.pdf Graphic file (type pdf)
 <use pictures/tetra_SpectralClustering_K10.pdf>
 Package pdftex.def Info: pictures/tetra_SpectralClustering_K10.pdf  used on input line 33.
 (pdftex.def)             Requested size: 147.43852pt x 115.87108pt.
-<pictures/chainlink_SpectralClustering_K10.pdf, id=49484, 398.48875pt x 313.17pt>
+<pictures/chainlink_SpectralClustering_K10.pdf, id=49564, 398.48875pt x 313.17pt>
 File: pictures/chainlink_SpectralClustering_K10.pdf Graphic file (type pdf)
 <use pictures/chainlink_SpectralClustering_K10.pdf>
 Package pdftex.def Info: pictures/chainlink_SpectralClustering_K10.pdf  used on input line 34.
@@ -1131,7 +1137,7 @@ Overfull \hbox (15.52423pt too wide) in paragraph at lines 32--35
  [][][][][][] 
  []
 
-[8 <./pictures/atom_scatterplot.pdf> <./pictures/tetra_scatterplot.pdf> <./pictures/chainlink_scatterplot.pdf> <./pictures/atom_KNN_K5.pdf> <./pictures/tetra_KNN_K5.pdf> <./pictures/chainlink_KNN_K5.pdf>]) (./tasks/opt_task2.tex
+) (./tasks/opt_task2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--13
 
  []
@@ -1141,12 +1147,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--13
 
  []
 
-
+[9 <./pictures/atom_KNN_K5.pdf> <./pictures/tetra_KNN_K5.pdf> <./pictures/chainlink_KNN_K5.pdf> <./pictures/atom_SpectralClustering_K5.pdf> <./pictures/tetra_SpectralClustering_K10.pdf> <./pictures/chainlink_SpectralClustering_K10.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
-[9 <./pictures/atom_SpectralClustering_K5.pdf> <./pictures/tetra_SpectralClustering_K10.pdf> <./pictures/chainlink_SpectralClustering_K10.pdf>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 33--38
 
  []
@@ -1156,27 +1162,43 @@ Package mdframed Info: mdframed detected package amsthm
  changed the theorem header of amsthm
 (mdframed)              on input line 63.
 
+Package mdframed Warning: You got a bad break
+(mdframed)                because the last box will be empty
+(mdframed)                you have to change it manually
+(mdframed)                by changing the text, the space
+(mdframed)                or something else on input line 64.
+
+Package mdframed Info: You first box width is to small
+ mdframed fixed it
+(mdframed)              on input line 64.
+[10]
+
+Package mdframed Warning: You got a bad break
+(mdframed)                because the last split box is empty
+(mdframed)                You have to change the settings on input line 64.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 67--70
 
  []
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 96--104
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 96--104
 
  []
 
-) [11] (./tasks/opt_task3.tex
-<pictures/ipmd_test/eigenvalues_comp.pdf, id=49725, 398.48875pt x 398.48875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--104
+
+ []
+
+[11]) (./tasks/opt_task3.tex
+<pictures/ipmd_test/eigenvalues_comp.pdf, id=49731, 398.48875pt x 398.48875pt>
 File: pictures/ipmd_test/eigenvalues_comp.pdf Graphic file (type pdf)
 <use pictures/ipmd_test/eigenvalues_comp.pdf>
 Package pdftex.def Info: pictures/ipmd_test/eigenvalues_comp.pdf  used on input line 7.
 (pdftex.def)             Requested size: 199.24388pt x 199.24388pt.
-<pictures/ipmd_test/times.pdf, id=49726, 398.48875pt x 398.48875pt>
+<pictures/ipmd_test/times.pdf, id=49732, 398.48875pt x 398.48875pt>
 File: pictures/ipmd_test/times.pdf Graphic file (type pdf)
 <use pictures/ipmd_test/times.pdf>
 Package pdftex.def Info: pictures/ipmd_test/times.pdf  used on input line 8.
@@ -1186,71 +1208,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--11
 
  []
 
-<pictures/ipmd_test/eigenvector_1.pdf, id=49727, 398.48875pt x 398.48875pt>
+[12]
+<pictures/ipmd_test/eigenvector_1.pdf, id=49738, 398.48875pt x 398.48875pt>
 File: pictures/ipmd_test/eigenvector_1.pdf Graphic file (type pdf)
 <use pictures/ipmd_test/eigenvector_1.pdf>
 Package pdftex.def Info: pictures/ipmd_test/eigenvector_1.pdf  used on input line 15.
 (pdftex.def)             Requested size: 139.47314pt x 139.47314pt.
-<pictures/ipmd_test/eigenvector_2.pdf, id=49728, 398.48875pt x 398.48875pt>
+<pictures/ipmd_test/eigenvector_2.pdf, id=49739, 398.48875pt x 398.48875pt>
 File: pictures/ipmd_test/eigenvector_2.pdf Graphic file (type pdf)
 <use pictures/ipmd_test/eigenvector_2.pdf>
 Package pdftex.def Info: pictures/ipmd_test/eigenvector_2.pdf  used on input line 16.
 (pdftex.def)             Requested size: 139.47314pt x 139.47314pt.
-<pictures/ipmd_test/eigenvector_3.pdf, id=49729, 398.48875pt x 398.48875pt>
+<pictures/ipmd_test/eigenvector_3.pdf, id=49740, 398.48875pt x 398.48875pt>
 File: pictures/ipmd_test/eigenvector_3.pdf Graphic file (type pdf)
 <use pictures/ipmd_test/eigenvector_3.pdf>
 Package pdftex.def Info: pictures/ipmd_test/eigenvector_3.pdf  used on input line 17.
 (pdftex.def)             Requested size: 139.47314pt x 139.47314pt.
-[12 <./pictures/ipmd_test/eigenvalues_comp.pdf> <./pictures/ipmd_test/times.pdf> <./pictures/ipmd_test/eigenvector_1.pdf> <./pictures/ipmd_test/eigenvector_2.pdf> <./pictures/ipmd_test/eigenvector_3.pdf>]
-<pictures/ipmd_test/eigenvalues_comp_norm.pdf, id=49768, 398.48875pt x 398.48875pt>
+<pictures/ipmd_test/eigenvalues_comp_norm.pdf, id=49741, 398.48875pt x 398.48875pt>
 File: pictures/ipmd_test/eigenvalues_comp_norm.pdf Graphic file (type pdf)
 <use pictures/ipmd_test/eigenvalues_comp_norm.pdf>
 Package pdftex.def Info: pictures/ipmd_test/eigenvalues_comp_norm.pdf  used on input line 29.
 (pdftex.def)             Requested size: 199.24388pt x 199.24388pt.
-<pictures/ipmd_test/times_norm.pdf, id=49769, 398.48875pt x 398.48875pt>
+<pictures/ipmd_test/times_norm.pdf, id=49742, 398.48875pt x 398.48875pt>
 File: pictures/ipmd_test/times_norm.pdf Graphic file (type pdf)
 <use pictures/ipmd_test/times_norm.pdf>
 Package pdftex.def Info: pictures/ipmd_test/times_norm.pdf  used on input line 30.
 (pdftex.def)             Requested size: 199.24388pt x 199.24388pt.
-<pictures/ipmd_test/eigenvector_norm_1.pdf, id=49770, 398.48875pt x 398.48875pt>
+ [13 <./pictures/ipmd_test/eigenvalues_comp.pdf> <./pictures/ipmd_test/times.pdf> <./pictures/ipmd_test/eigenvector_1.pdf> <./pictures/ipmd_test/eigenvector_2.pdf> <./pictures/ipmd_test/eigenvector_3.pdf>]
+<pictures/ipmd_test/eigenvector_norm_1.pdf, id=49783, 398.48875pt x 398.48875pt>
 File: pictures/ipmd_test/eigenvector_norm_1.pdf Graphic file (type pdf)
 <use pictures/ipmd_test/eigenvector_norm_1.pdf>
 Package pdftex.def Info: pictures/ipmd_test/eigenvector_norm_1.pdf  used on input line 37.
 (pdftex.def)             Requested size: 139.47314pt x 139.47314pt.
-<pictures/ipmd_test/eigenvector_norm_2.pdf, id=49771, 398.48875pt x 398.48875pt>
+<pictures/ipmd_test/eigenvector_norm_2.pdf, id=49784, 398.48875pt x 398.48875pt>
 File: pictures/ipmd_test/eigenvector_norm_2.pdf Graphic file (type pdf)
 <use pictures/ipmd_test/eigenvector_norm_2.pdf>
 Package pdftex.def Info: pictures/ipmd_test/eigenvector_norm_2.pdf  used on input line 38.
 (pdftex.def)             Requested size: 139.47314pt x 139.47314pt.
-<pictures/ipmd_test/eigenvector_norm_3.pdf, id=49772, 398.48875pt x 398.48875pt>
+<pictures/ipmd_test/eigenvector_norm_3.pdf, id=49785, 398.48875pt x 398.48875pt>
 File: pictures/ipmd_test/eigenvector_norm_3.pdf Graphic file (type pdf)
 <use pictures/ipmd_test/eigenvector_norm_3.pdf>
 Package pdftex.def Info: pictures/ipmd_test/eigenvector_norm_3.pdf  used on input line 39.
 (pdftex.def)             Requested size: 139.47314pt x 139.47314pt.
-) [13 <./pictures/ipmd_test/eigenvalues_comp_norm.pdf> <./pictures/ipmd_test/times_norm.pdf> <./pictures/ipmd_test/eigenvector_norm_1.pdf> <./pictures/ipmd_test/eigenvector_norm_2.pdf> <./pictures/ipmd_test/eigenvector_norm_3.pdf>] (./appendix.tex (../inverse_power_method_deflation.m [14]))
+) [14 <./pictures/ipmd_test/eigenvalues_comp_norm.pdf> <./pictures/ipmd_test/times_norm.pdf> <./pictures/ipmd_test/eigenvector_norm_1.pdf> <./pictures/ipmd_test/eigenvector_norm_2.pdf> <./pictures/ipmd_test/eigenvector_norm_3.pdf>] (./appendix.tex (../inverse_power_method_deflation.m [15]))
 
 Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ Package `movie15' is obsolete and @@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-[15] (./main.aux)
+[16] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B66D07E3AC38A33C501260688CEFDC60;2818.
+(rerunfilecheck)             Checksum: 880F8D0C3EC073CB3F480E2A02E3B81C;3061.
  ) 
 Here is how much of TeX's memory you used:
- 18908 strings out of 478517
- 288900 string characters out of 5853902
+ 18919 strings out of 478517
+ 289063 string characters out of 5853902
  1175025 words of memory out of 5000000
- 36140 multiletter control sequences out of 15000+600000
+ 36144 multiletter control sequences out of 15000+600000
  492408 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,11n,81p,966b,2413s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc} <c:/Users/giuli/.texlive2021/texmf-var/fonts/pk/ljfour/public/bbm/bbm10.600pk>{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (15 pages, 3448677 bytes).
+ 73i,14n,81p,966b,2413s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc} <c:/Users/giuli/.texlive2021/texmf-var/fonts/pk/ljfour/public/bbm/bbm10.600pk>{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (16 pages, 3454615 bytes).
 PDF statistics:
- 50051 PDF objects out of 55141 (max. 8388607)
- 49375 compressed objects within 494 object streams
- 235 named destinations out of 1000 (max. 500000)
- 307 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 50062 PDF objects out of 55141 (max. 8388607)
+ 49385 compressed objects within 494 object streams
+ 239 named destinations out of 1000 (max. 500000)
+ 315 words of extra memory for PDF output out of 10000 (max. 10000000)
 

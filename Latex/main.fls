@@ -1472,6 +1472,10 @@ INPUT ./pictures/spiral_dbscan_nospectral.pdf
 INPUT pictures/spiral_dbscan_nospectral.pdf
 INPUT ./pictures/spiral_dbscan_nospectral.pdf
 INPUT ./pictures/spiral_dbscan_nospectral.pdf
+INPUT ./tasks/opt_task4.tex
+INPUT tasks/opt_task4.tex
+INPUT ./tasks/opt_task4.tex
+INPUT tasks/opt_task4.tex
 INPUT ./tasks/opt_task1.tex
 INPUT tasks/opt_task1.tex
 INPUT ./tasks/opt_task1.tex
@@ -1597,8 +1601,8 @@ INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
 INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
-INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
 INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
+INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
 INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT c:/Users/giuli/.texlive2021/texmf-var/fonts/pk/ljfour/public/bbm/bbm10.600pk
 INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc

@@ -1,0 +1,20 @@
+When using a graph \(G = (\mathcal{V}, W)\) with weight matrix \(W\) and Laplacian matrix \(L\) as defined in \ref{sec2} we can introduce the notion of \textit{Normalized Symmetric Laplacian Matrix:}
+\begin{equation} \label{eq_Lsym}
+    L_{\text{sym}} := D^{-\frac{1}{2}} L D^{-\frac{1}{2}} = I - D^{-\frac{1}{2}} W D^{-\frac{1}{2}}.
+\end{equation}
+We can easily prove that if \(\lambda\) and \(x\) are respectively eigenvalue and eigenvector that solve the \textit{Generalized Eigenvalue problem}:
+\begin{equation}
+    Lx = \lambda D x
+\end{equation} 
+then \(lambda\) and \(y := D^{\frac{1}{2}}x\) are the solution to the canonical eigenvalue problem of \(L_{\text{sym}}\), in fact:
+\begin{equation*}
+    \begin{gathered}
+        Lx = \lambda D x \\
+    D^{-\frac{1}{2}}L x = \lambda D^{\frac{1}{2}} x \\
+    D^{-\frac{1}{2}} L D^{-\frac{1}{2}} \underbrace{D^{\frac{1}{2}} x}_{y} = \lambda  \underbrace{D^{\frac{1}{2}} x}_{y}    
+    \end{gathered}
+\end{equation*}
+This means that \(L\) and \(L_{\text{sym}}\) have the same eigenspace relative to the eigenvalue \(0\) hence we can use \(L_{\text{sym}}\) for our spectral clustering purposes.
+\\
+\\
+Testing the spectral clustering algorithm onto our datasets using the normalized laplacian matrix yielded the exact same results in terms of accuracy and performance, hence for our 2D data there is no tangible benefit in using one matrix over the other.

@@ -116,15 +116,9 @@ eigs_tetra={};
 eigs_chainlink={};
 eigs_atom={};
 for i=1:length(K) %for each value of K tested
-    if eigs_true == true
-        [U_tetra{i}, eigs_tetra{i}] = eigs(L_tetra{i}, n_eigs, 'smallestabs'); %compute the n_eigs smallest eigenvalues for tetra
-        [U_chainlink{i}, eigs_chainlink{i}] = eigs(L_chainlink{i}, n_eigs, 'smallestabs'); %same for chainlink
-        [U_atom{i}, eigs_atom{i}] = eigs(L_atom{i}, n_eigs, 'smallestabs'); %same for atom
-    else
-        [eigs_tetra{i}, U_tetra{i}] = inverse_power_method_deflation(L_tetra{i}, n_eigs, 1e-12, 1e4, deflation);
-        [eigs_chainlink{i}, U_chainlink{i}] = inverse_power_method_deflation(L_chainlink{i}, n_eigs, 1e-12, 1e4, deflation);
-        [eigs_atom{i}, U_atom{i}] = inverse_power_method_deflation(L_atom{i}, n_eigs, 1e-12, 1e4, deflation);
-    end
+    [U_tetra{i}, eigs_tetra{i}] = eigs(L_tetra{i}, n_eigs, 'smallestabs'); %compute the n_eigs smallest eigenvalues for tetra
+    [U_chainlink{i}, eigs_chainlink{i}] = eigs(L_chainlink{i}, n_eigs, 'smallestabs'); %same for chainlink
+    [U_atom{i}, eigs_atom{i}] = eigs(L_atom{i}, n_eigs, 'smallestabs'); %same for atom
 end
 
 for i = 1:length(K)

@@ -2,8 +2,8 @@ clear
 close all
 clc
 
-eigs_true = true;
-deflation = 'wiel';
+eigs_true = false;
+deflation = 'naive';
 print_fig = false; %Set TRUE for Printing figures to file
 %% ---- LOADING DATA -----
 load("data\Circle.mat", "X");
